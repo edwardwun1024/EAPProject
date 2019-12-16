@@ -1,7 +1,7 @@
 package com.edward.dataProvider.person;
 
 
-import com.edward.requestbean.person.PersonGroupListRequestBean;
+import com.edward.requestbean.person.bean.PersonGroupListRequestBean;
 
 public class PersonGroupListTestData {
 

@@ -1,4 +1,4 @@
-package com.edward.requestbean.person;
+package com.edward.requestbean.person.bean;
 
 public class PersonGroupListRequestBean {
     private String current;

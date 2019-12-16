@@ -8,7 +8,7 @@ import com.edward.dataProvider.person.PersonGroupListTestData;
 import com.edward.http.common.Utils;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import com.edward.requestbean.person.PersonGroupListRequestBean;
+import com.edward.requestbean.person.bean.PersonGroupListRequestBean;
 import com.edward.responsebean.person.PageRes;
 import com.edward.responsebean.person.PersonGroupListRes;
 

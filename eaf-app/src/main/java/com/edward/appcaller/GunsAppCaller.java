@@ -8,7 +8,7 @@ import com.edward.http.common.HttpMethods;
 import com.edward.http.exception.HttpProcessException;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import com.edward.requestbean.guns.GunsMgrLoginRequestBean;
+import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 
 public class GunsAppCaller {
     public CloseableHttpClient getClient(){

@@ -1,4 +1,4 @@
-package com.edward.requestbean.guns;
+package com.edward.requestbean.guns.bean;
 
 public class GunsMgrLoginRequestBean {
 

@@ -1,7 +1,8 @@
 package com.edward.dataProvider.guns;
 
 import com.edward.common.AES256Utils;
-import com.edward.requestbean.guns.GunsMgrLoginRequestBean;
+import com.edward.common.EnumCode;
+import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 
 public class GunsMgrLoginTestData {
 
@@ -24,7 +25,7 @@ public class GunsMgrLoginTestData {
         gunsMgrLoginRequestBean.setAccountType(accountType);
 
         return new Object[][]{
-                {"用户登陆studio",gunsMgrLoginRequestBean,"0000"}
+                {"用户登陆studio",gunsMgrLoginRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }
