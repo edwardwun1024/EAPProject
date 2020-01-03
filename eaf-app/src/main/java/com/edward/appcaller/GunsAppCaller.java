@@ -11,6 +11,9 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 
+import static com.edward.app.GunsApp.GUNS_ACCOUNT_ADD_PATH;
+import static com.edward.app.GunsApp.GUNS_MGR_LOGIN_PATH;
+
 public class GunsAppCaller {
     public CloseableHttpClient getClient(){
         return HttpClients.createDefault();
@@ -26,7 +29,7 @@ public class GunsAppCaller {
         HttpConfig httpConfig = HttpConfig.custom();
         httpConfig.headers(header.build());
         httpConfig.method(HttpMethods.POST);
-        httpConfig.url("http://www.stg.intersense.sensetime.com/GUNS/mgr/login");
+        httpConfig.url("http://www.stg.intersense.sensetime.com"+GUNS_MGR_LOGIN_PATH);
         httpConfig.json(JSONObject.toJSONString(gunsMgrLoginRequestBean));
         String result = null;
         try {
@@ -43,13 +46,13 @@ public class GunsAppCaller {
     private String getGunsAccountAdd(CloseableHttpClient closeableHttpClient, GunsAccountAddRequestBean gunsAccountAddRequestBean){
 
         HttpHeader header = HttpHeader.custom();
-        header.contentType("application/x-www-form-urlencoded");
-        header.authorization("Basic d2FuZ2NoZW5nLDA6dmdpZm9u");
+        header.contentType("application/x-www-form-urlencoded;charset=UTF-8");
+        header.authorization("Basic d2FuZ2NoZW5nLDA6MTl4bnh5");
 
         HttpConfig httpConfig = HttpConfig.custom();
         httpConfig.headers(header.build());
         httpConfig.method(HttpMethods.POST);
-        httpConfig.url("http://hostserver3/GUNS/account/add");
+        httpConfig.url("http://www.stg.intersense.sensetime.com"+GUNS_ACCOUNT_ADD_PATH);
         httpConfig.json(JSONObject.toJSONString(gunsAccountAddRequestBean));
         String result = null;
         try {

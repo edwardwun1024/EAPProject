@@ -446,6 +446,8 @@ public class HttpClientUtil{
                 config.headers(resp.getAllHeaders());
             }
 
+            Utils.info("HttpStatus:" + resp.getStatusLine().getStatusCode());
+            Utils.info("HttpResponseMsg:" + resp.getStatusLine().getReasonPhrase());
             //获取结果实体
             return resp;
 

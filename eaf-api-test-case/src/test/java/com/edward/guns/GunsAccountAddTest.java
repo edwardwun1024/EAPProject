@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
  * @date 2019/12/16 19:12
  */
 public class GunsAccountAddTest extends BaseApiTest {
-    @DataProvider(name = "dataPrdGetGunsMgrLoginTest")
+    @DataProvider(name = "dataPrdGetGunsAccountAdd")
     public Object[][] getDataProviderGetGunsMgrLoginDataProvider( ){
         //通过context.class 获取PersonGroupListTestData.genPersonGroupListTestData
         GunsAccountAddTestData gunsAccountAddTestData = new GunsAccountAddTestData();
@@ -23,9 +23,8 @@ public class GunsAccountAddTest extends BaseApiTest {
     }
 
 
-    @Test(dataProvider = "dataPrdGetGunsMgrLoginTest")
+    @Test(dataProvider = "dataPrdGetGunsAccountAdd")
     public void testGetGunsMgrLoginTest(String caseName, GunsAccountAddRequestBean gunsAccountAddRequestBean, EnumCode enumCode){
-
         logger.info("--------------"+caseName+" start--------------");
         String responseString = new GunsAppCaller().getGunsAccountAdd(gunsAccountAddRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
