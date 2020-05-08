@@ -2,6 +2,8 @@ package com.edward.requestbean.guns.dataTemplate;
 
 import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 
+import javax.ws.rs.FormParam;
+
 /**
  * @author wangcheng
  * @date 2019/12/16 11:06
@@ -9,6 +11,7 @@ import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 
 public class GunsMgrLoginTpl {
     public static class TestValues{
+
         public static final String userName = null;
         public static final String password = null;
         public static final String accountType = null;

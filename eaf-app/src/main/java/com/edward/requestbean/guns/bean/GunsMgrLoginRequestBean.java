@@ -1,7 +1,6 @@
 package com.edward.requestbean.guns.bean;
 
 public class GunsMgrLoginRequestBean {
-
     private String username;
     private String password;
     private String accountType;

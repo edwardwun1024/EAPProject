@@ -10,7 +10,7 @@ import com.edward.requestbean.guns.bean.GunsAccountAddRequestBean;
 public class GunsAccountAddTestData {
 
     public Object[][] genGunsAccountAddTestData(){
-        String account = "testwc02";
+        String account = "testwc";
         String password = "iEp5Op2lnXR3r6pNwWy5cA==";
         String email = "testwc@qq.com";
         String name = "testwc";
@@ -34,7 +34,7 @@ public class GunsAccountAddTestData {
 
 
         return new Object[][]{
-                {"用户登陆studio",gunsAccountAddRequestBean, EnumCode.BASE_SUCCESS}
+                {"添加账号",gunsAccountAddRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

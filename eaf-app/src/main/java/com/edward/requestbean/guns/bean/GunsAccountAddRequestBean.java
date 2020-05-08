@@ -21,7 +21,7 @@ public class GunsAccountAddRequestBean {
      * createUser: 9
      * accountType: 0
      */
-    private Integer id;
+//    private Integer id;
     private String account;
     private String name;
     private String password;
@@ -35,8 +35,8 @@ public class GunsAccountAddRequestBean {
     public GunsAccountAddRequestBean() {
     }
 
-    public GunsAccountAddRequestBean(Integer id, String account, String name, String password, String rePassword, String email, String phone, Integer deptid, String accountType, Integer createUser) {
-        this.id = id;
+    public GunsAccountAddRequestBean( String account, String name, String password, String rePassword, String email, String phone, Integer deptid, String accountType, Integer createUser) {
+//        this.id = id;
         this.account = account;
         this.name = name;
         this.password = password;
@@ -48,13 +48,13 @@ public class GunsAccountAddRequestBean {
         this.createUser = createUser;
     }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
+//    public Integer getId() {
+//        return id;
+//    }
+//
+//    public void setId(Integer id) {
+//        this.id = id;
+//    }
 
     public String getAccount() {
         return account;
@@ -131,7 +131,7 @@ public class GunsAccountAddRequestBean {
     @Override
     public String toString() {
         return "GunsAccountAddRequestBean{" +
-                "id=" + id +
+//                "id=" + id +
                 ", account='" + account + '\'' +
                 ", name='" + name + '\'' +
                 ", password='" + password + '\'' +

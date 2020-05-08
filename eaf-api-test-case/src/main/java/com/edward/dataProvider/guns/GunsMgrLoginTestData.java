@@ -3,7 +3,9 @@ package com.edward.dataProvider.guns;
 import com.edward.common.AES256Utils;
 import com.edward.common.EnumCode;
 import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
+import org.springframework.stereotype.Component;
 
+@Component
 public class GunsMgrLoginTestData {
 
     public Object[][] genGunsMgrLoginTestData(){
