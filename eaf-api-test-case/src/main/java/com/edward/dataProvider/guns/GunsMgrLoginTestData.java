@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 public class GunsMgrLoginTestData {
 
     public Object[][] genGunsMgrLoginTestData(){
-        String name = "wangcheng";
-        String decPwd = "Edward2019@";
+        String name = "admin";
+        String decPwd = "st#000000";
         String accountType = "0";
         String encPwd = null;
         String dectoPwd = null;

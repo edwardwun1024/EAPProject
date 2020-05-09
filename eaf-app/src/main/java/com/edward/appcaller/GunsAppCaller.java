@@ -7,35 +7,43 @@ import com.edward.http.HttpClientUtil;
 import com.edward.http.common.HttpConfig;
 import com.edward.http.common.HttpHeader;
 import com.edward.http.common.HttpMethods;
+import com.edward.http.common.config.properties.EnvProperties;
 import com.edward.http.exception.HttpProcessException;
 import com.edward.requestbean.guns.bean.GunsAccountAddRequestBean;
+import com.edward.requestbean.guns.bean.GunsRoleTreeListByUserIdRequestBean;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.util.Map;
 
-import static com.edward.app.GunsApp.GUNS_ACCOUNT_ADD_PATH;
-import static com.edward.app.GunsApp.GUNS_MGR_LOGIN_PATH;
+import static com.edward.app.GunsApp.*;
 
 @Component
 public class GunsAppCaller extends AbstractServiceCaller {
-    public CloseableHttpClient getClient(){
-        return HttpClients.createDefault();
+
+    @Resource
+    private EnvProperties envProperties;
+    private String host = "http://10.151.5.80:8090";
+
+    public HttpConfig getHttpConfig(){
+        return HttpConfig.custom();
     }
 
     public String getGunsMgrLogin(GunsMgrLoginRequestBean gunsMgrLoginRequestBean){
-        return this.getPostgetGunsMgrLogin(this.getClient(),gunsMgrLoginRequestBean);
+        return this.getPostgetGunsMgrLogin(this.getHttpConfig(),gunsMgrLoginRequestBean);
     }
-    private String getPostgetGunsMgrLogin(CloseableHttpClient closeableHttpClient,GunsMgrLoginRequestBean gunsMgrLoginRequestBean){
-        HttpHeader header = HttpHeader.custom();
-        header.contentType("application/json;charset=UTF-8");
+    private String getPostgetGunsMgrLogin(HttpConfig httpConfig, GunsMgrLoginRequestBean gunsMgrLoginRequestBean){
 
-        HttpConfig httpConfig = HttpConfig.custom();
+//        System.out.println("EnvProperties:"+envProperties.getEvnIp());
+
+        HttpHeader header = HttpHeader.custom();
         httpConfig.headers(header.build());
+
         httpConfig.method(HttpMethods.POST);
-        httpConfig.url("http://studio80"+GUNS_MGR_LOGIN_PATH);
+        httpConfig.url(host + POST_GUNS_MGR_LOGIN.path);
         httpConfig.json(JSONObject.toJSONString(gunsMgrLoginRequestBean));
         String result = null;
         try {
@@ -47,21 +55,19 @@ public class GunsAppCaller extends AbstractServiceCaller {
     }
 
     public String getGunsAccountAdd(GunsAccountAddRequestBean gunsAccountAddRequestBean){
-        return this.getGunsAccountAdd(this.getClient(),gunsAccountAddRequestBean);
+        return this.getGunsAccountAdd(this.getHttpConfig(),gunsAccountAddRequestBean);
     }
-    private String getGunsAccountAdd(CloseableHttpClient closeableHttpClient, GunsAccountAddRequestBean gunsAccountAddRequestBean){
+    private String getGunsAccountAdd(HttpConfig httpConfig, GunsAccountAddRequestBean gunsAccountAddRequestBean){
 
         HttpHeader header = HttpHeader.custom();
-        header.contentType("application/x-www-form-urlencoded; charset=utf-8");
-        header.authorization("Basic d2FuZ2NoZW5nLDA6ZTl0dHJs");
+        header.authorization("Basic YWRtaW4sMDptZjZzM2M=");
 
         Map<String, Object> map=null;
         map = CommonUtils.transBean2Map(gunsAccountAddRequestBean);
 
-        HttpConfig httpConfig = HttpConfig.custom();
         httpConfig.headers(header.build());
         httpConfig.method(HttpMethods.POST);
-        httpConfig.url("http://studio80"+GUNS_ACCOUNT_ADD_PATH);
+        httpConfig.url(host + POST_GUNS_ACCOUNT_ADD.path);
         httpConfig.map(map);
 
         String result = null;
@@ -73,5 +79,29 @@ public class GunsAppCaller extends AbstractServiceCaller {
         return result;
     }
 
+    public String getGunsRoleTreeListByUserId(GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean){
+        return this.getGunsRoleTreeListByUserId(this.getHttpConfig(),gunsRoleTreeListByUserIdRequestBean);
+    }
+
+    public String getGunsRoleTreeListByUserId(HttpConfig httpConfig, GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean){
+        HttpHeader header = HttpHeader.custom();
+        header.authorization("Basic YWRtaW4sMDpodGozY2w=");
+
+        Map<String, Object> map=null;
+        map = CommonUtils.transBean2Map(gunsRoleTreeListByUserIdRequestBean);
+
+        httpConfig.headers(header.build());
+        httpConfig.method(HttpMethods.POST);
+        httpConfig.url(host + POST_GUNS_ROLE_TREE_LIST_BY_USERID.path);
+        httpConfig.map(map);
+
+        String result = null;
+        try {
+            result = HttpClientUtil.post(httpConfig);
+        } catch (HttpProcessException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 
 }
