@@ -26,14 +26,10 @@ public class GunsAppCaller extends AbstractServiceCaller {
 
     @Resource
     private EnvProperties envProperties;
-    private String host = "http://10.151.5.80:8090";
 
-    public HttpConfig getHttpConfig(){
-        return HttpConfig.custom();
-    }
 
     public String getGunsMgrLogin(GunsMgrLoginRequestBean gunsMgrLoginRequestBean){
-        return this.getPostgetGunsMgrLogin(this.getHttpConfig(),gunsMgrLoginRequestBean);
+        return this.getPostgetGunsMgrLogin(super.getHttpConfig(),gunsMgrLoginRequestBean);
     }
     private String getPostgetGunsMgrLogin(HttpConfig httpConfig, GunsMgrLoginRequestBean gunsMgrLoginRequestBean){
 
@@ -55,7 +51,7 @@ public class GunsAppCaller extends AbstractServiceCaller {
     }
 
     public String getGunsAccountAdd(GunsAccountAddRequestBean gunsAccountAddRequestBean){
-        return this.getGunsAccountAdd(this.getHttpConfig(),gunsAccountAddRequestBean);
+        return this.getGunsAccountAdd(super.getHttpConfig(),gunsAccountAddRequestBean);
     }
     private String getGunsAccountAdd(HttpConfig httpConfig, GunsAccountAddRequestBean gunsAccountAddRequestBean){
 
@@ -80,19 +76,19 @@ public class GunsAppCaller extends AbstractServiceCaller {
     }
 
     public String getGunsRoleTreeListByUserId(GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean){
-        return this.getGunsRoleTreeListByUserId(this.getHttpConfig(),gunsRoleTreeListByUserIdRequestBean);
+        return this.getGunsRoleTreeListByUserId(super.getHttpConfig(),gunsRoleTreeListByUserIdRequestBean);
     }
 
     public String getGunsRoleTreeListByUserId(HttpConfig httpConfig, GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean){
         HttpHeader header = HttpHeader.custom();
-        header.authorization("Basic YWRtaW4sMDpodGozY2w=");
+        header.authorization("Basic YWRtaW4sMDpjbGF6aDQ=");
 
         Map<String, Object> map=null;
         map = CommonUtils.transBean2Map(gunsRoleTreeListByUserIdRequestBean);
 
         httpConfig.headers(header.build());
         httpConfig.method(HttpMethods.POST);
-        httpConfig.url(host + POST_GUNS_ROLE_TREE_LIST_BY_USERID.path);
+        httpConfig.url(host + POST_GUNS_ROLE_TREE_LIST_BY_USERID.getPath());
         httpConfig.map(map);
 
         String result = null;

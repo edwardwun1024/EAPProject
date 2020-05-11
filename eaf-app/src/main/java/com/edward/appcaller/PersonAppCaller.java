@@ -1,6 +1,7 @@
 package com.edward.appcaller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.edward.app.AbstractServiceCaller;
 import com.edward.http.HttpClientUtil;
 import com.edward.http.common.HttpConfig;
 import com.edward.http.common.HttpHeader;
@@ -10,29 +11,22 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import com.edward.requestbean.person.bean.PersonGroupListRequestBean;
 
-public class PersonAppCaller {
+import static com.edward.app.PersonApp.POST_PERSON_GROUP_LIST;
 
-    public CloseableHttpClient getClient(){
-        return HttpClients.createDefault();
-    }
+public class PersonAppCaller extends AbstractServiceCaller {
+
 
     public String getPostPersonGroupList(PersonGroupListRequestBean personGroupListRequestBean){
-        return this.getPostPersonGroupList(this.getClient(),personGroupListRequestBean);
+        return this.getPostPersonGroupList(super.getHttpConfig(),personGroupListRequestBean);
     }
-//    private String getPostPersonGroupList(CloseableHttpClient closeableHttpClient,PersonGroupListRequestBean personGroupListRequestBean){
-//        return new HttpUtil().doPost(closeableHttpClient,PersonApp.POST_PERSON_GROUP_LIST_PATH,personGroupListRequestBean);
-//    }
 
-    private String getPostPersonGroupList(CloseableHttpClient closeableHttpClient,PersonGroupListRequestBean personGroupListRequestBean){
-//        return new HttpUtil().doPost(closeableHttpClient,PersonApp.POST_PERSON_GROUP_LIST_PATH,personGroupListRequestBean);
+    private String getPostPersonGroupList(HttpConfig httpConfig,PersonGroupListRequestBean personGroupListRequestBean){
         HttpHeader header = HttpHeader.custom();
-        header.authorization("Basic d2FuZ2NoZW5nLDA6MWRqajhh");
-        header.contentType("application/json;charset=UTF-8");
+        header.authorization("Basic YWRtaW4sMDppYjJ2anc");
 
-        HttpConfig httpConfig = HttpConfig.custom();
         httpConfig.headers(header.build());
         httpConfig.method(HttpMethods.POST);
-        httpConfig.url("http://www.stg.intersense.sensetime.com/PERSON/personGroup/list");
+        httpConfig.url(host + POST_PERSON_GROUP_LIST.getPath());
         httpConfig.json(JSONObject.toJSONString(personGroupListRequestBean));
         String result = null;
         try {

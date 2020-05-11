@@ -11,6 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 /**
+ * 功能：添加用户
  * @author wangcheng
  * @date 2019/12/16 19:12
  */

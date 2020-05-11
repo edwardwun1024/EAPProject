@@ -8,6 +8,11 @@ import com.edward.http.common.HttpConfig;
 public class AbstractServiceCaller{
 
     public static HttpConfig httpConfig = HttpConfig.custom();
+    public static String host = "http://studio80/";
+
+    public static HttpConfig getHttpConfig(){
+        return HttpConfig.custom();
+    }
 
     public abstract interface post{};
     public abstract interface get{};

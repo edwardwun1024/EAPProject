@@ -13,7 +13,7 @@ public class PersonGroupListTestData {
         personGroupListRequestBean.setGroupId("");
 
         return new Object[][]{
-                {"获取组得list",personGroupListRequestBean,"responseCode"}
+                {"获取组的list",personGroupListRequestBean,"responseCode"}
         };
     }
 

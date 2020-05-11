@@ -14,6 +14,12 @@ import org.testng.annotations.Test;
 import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 import com.edward.responsebean.basic.BaseRes;
 
+
+/**
+ * 功能：用户登陆
+ * @author wangcheng
+ * @date 2019/12/16 19:12
+ */
 @Slf4j
 public class GunsMgrLoginTest extends BaseApiTest {
     @Autowired
