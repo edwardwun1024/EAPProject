@@ -1,4 +1,4 @@
-package com.edward.guns;
+package com.edward.app.guns;
 
 import com.edward.Base.BaseApiTest;
 import com.edward.appcaller.GunsAppCaller;
@@ -30,10 +30,10 @@ public class GunsRoleTreeListByUserIdTest extends BaseApiTest {
 
 
     @Test(dataProvider = "dataPrdGunsRoleTreeListByUserIdTest")
-    public void testGetGunsRoleTreeListByUserId(String caseName, GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean, EnumCode enumCode){
+    public void testGetGunsRoleTreeListByUserId(String caseName, GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean, String authorization, EnumCode enumCode){
 
         logger.info("--------------"+caseName+" start--------------");
-        String responseString = new GunsAppCaller().getGunsRoleTreeListByUserId(gunsRoleTreeListByUserIdRequestBean);
+        String responseString = new GunsAppCaller().getGunsRoleTreeListByUserId(gunsRoleTreeListByUserIdRequestBean, authorization);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
         Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
         Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());

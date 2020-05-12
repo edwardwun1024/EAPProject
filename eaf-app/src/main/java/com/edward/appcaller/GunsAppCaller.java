@@ -52,13 +52,13 @@ public class GunsAppCaller extends AbstractServiceCaller {
         return result;
     }
 
-    public String getGunsAccountAdd(GunsAccountAddRequestBean gunsAccountAddRequestBean){
-        return this.getGunsAccountAdd(super.getHttpConfig(),gunsAccountAddRequestBean);
+    public String getGunsAccountAdd(GunsAccountAddRequestBean gunsAccountAddRequestBean, String authorization){
+        return this.getGunsAccountAdd(super.getHttpConfig(),gunsAccountAddRequestBean, authorization);
     }
-    private String getGunsAccountAdd(HttpConfig httpConfig, GunsAccountAddRequestBean gunsAccountAddRequestBean){
+    private String getGunsAccountAdd(HttpConfig httpConfig, GunsAccountAddRequestBean gunsAccountAddRequestBean, String authorization){
 
         HttpHeader header = HttpHeader.custom();
-        header.authorization("Basic YWRtaW4sMDptZjZzM2M=");
+        header.authorization("Basic " + authorization);
 
         Map<String, Object> map=null;
         map = CommonUtils.transBean2Map(gunsAccountAddRequestBean);
@@ -77,12 +77,12 @@ public class GunsAppCaller extends AbstractServiceCaller {
         return result;
     }
 
-    public String getGunsRoleTreeListByUserId(GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean){
-        return this.getGunsRoleTreeListByUserId(super.getHttpConfig(),gunsRoleTreeListByUserIdRequestBean);
+    public String getGunsRoleTreeListByUserId(GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean, String authorization){
+        return this.getGunsRoleTreeListByUserId(super.getHttpConfig(),gunsRoleTreeListByUserIdRequestBean, authorization);
     }
-    public String getGunsRoleTreeListByUserId(HttpConfig httpConfig, GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean){
+    private String getGunsRoleTreeListByUserId(HttpConfig httpConfig, GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean, String authorization){
         HttpHeader header = HttpHeader.custom();
-        header.authorization("Basic YWRtaW4sMDpjbGF6aDQ=");
+        header.authorization("Basic " + authorization);
 
         Map<String, Object> map=null;
         map = CommonUtils.transBean2Map(gunsRoleTreeListByUserIdRequestBean);
@@ -101,12 +101,12 @@ public class GunsAppCaller extends AbstractServiceCaller {
         return result;
     }
 
-    public String getGunsAccountSetRole(GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean){
-        return this.getGunsAccountSetRole(super.getHttpConfig(),gunsAccountSetRoleRequestBean);
+    public String getGunsAccountSetRole(GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean, String authorization){
+        return this.getGunsAccountSetRole(super.getHttpConfig(),gunsAccountSetRoleRequestBean, authorization);
     }
-    public String getGunsAccountSetRole(HttpConfig httpConfig,GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean){
+    public String getGunsAccountSetRole(HttpConfig httpConfig,GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean, String authorization){
         HttpHeader header = HttpHeader.custom();
-        header.authorization("Basic YWRtaW4sMDpyYTZteG4=");
+        header.authorization("Basic " + authorization);
 
         Map<String, Object> map=null;
         map = CommonUtils.transBean2Map(gunsAccountSetRoleRequestBean);

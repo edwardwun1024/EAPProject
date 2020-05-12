@@ -23,6 +23,10 @@
             <artifactId>eaf-core</artifactId>
             <version>0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
         <!--添加项目依赖-end-->
 
     </dependencies>

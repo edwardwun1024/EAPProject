@@ -13,7 +13,6 @@ public class GunsMgrLoginTestData {
         String decPwd = "st#000000";
         String accountType = "0";
         String encPwd = null;
-        String dectoPwd = null;
 
         try {
             encPwd = AES256Utils.encrypt(decPwd.getBytes());

@@ -1,13 +1,11 @@
-package com.edward.guns;
+package com.edward.app.guns;
 
 import com.edward.Base.BaseApiTest;
 import com.edward.appcaller.GunsAppCaller;
 import com.edward.common.EnumCode;
-import com.edward.common.SpringContextHolder;
 import com.edward.dataProvider.guns.GunsMgrLoginTestData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

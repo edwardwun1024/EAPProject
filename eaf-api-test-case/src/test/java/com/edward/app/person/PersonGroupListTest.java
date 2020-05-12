@@ -1,4 +1,4 @@
-package com.edward.person;
+package com.edward.app.person;
 
 
 import com.edward.appcaller.PersonAppCaller;
