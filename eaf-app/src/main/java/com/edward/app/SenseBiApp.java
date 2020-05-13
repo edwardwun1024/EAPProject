@@ -9,6 +9,6 @@ import com.edward.http.HttpMethod;
  */
 public class SenseBiApp {
     public static final String SENSEPASS_v2_record = "/sensepass/v2/record";
-    public static final HttpApi POST_SENSEPASS_v2_record = new HttpApi(SENSEPASS_v2_record, HttpMethod.POST.getName());
+    public static final HttpApi POST_SENSEPASS_v2_record = new HttpApi(SENSEPASS_v2_record, HttpMethod.POST_JSON);
 
 }

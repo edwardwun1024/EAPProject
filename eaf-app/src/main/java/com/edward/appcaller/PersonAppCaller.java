@@ -17,7 +17,7 @@ public class PersonAppCaller extends AbstractServiceCaller {
 
 
     public String getPostPersonGroupList(PersonGroupListRequestBean personGroupListRequestBean){
-        return this.getPostPersonGroupList(super.getHttpConfig(),personGroupListRequestBean);
+        return this.getPostPersonGroupList(HttpConfig.custom(),personGroupListRequestBean);
     }
 
     private String getPostPersonGroupList(HttpConfig httpConfig,PersonGroupListRequestBean personGroupListRequestBean){

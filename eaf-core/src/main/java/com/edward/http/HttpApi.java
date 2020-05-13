@@ -3,14 +3,14 @@ package com.edward.http;
 public class HttpApi {
 
     public String path;
-    public String httpType;
+    public HttpMethod httpMethod;
 
     public HttpApi() {
     }
 
-    public HttpApi(String path, String httpType) {
+    public HttpApi(String path, HttpMethod httpMethod) {
         this.path = path;
-        this.httpType = httpType;
+        this.httpMethod = httpMethod;
     }
 
     public String getPath() {
@@ -21,19 +21,19 @@ public class HttpApi {
         this.path = path;
     }
 
-    public String getHttpType() {
-        return httpType;
+    public HttpMethod getHttpMethod() {
+        return httpMethod;
     }
 
-    public void setHttpType(String httpType) {
-        this.httpType = httpType;
+    public void setHttpMethod(String httpType) {
+        this.httpMethod = httpMethod;
     }
 
     @Override
     public String toString() {
         return "HttpApi{" +
                 "path='" + path + '\'' +
-                ", httpType='" + httpType + '\'' +
+                ", httpMethod=" + httpMethod +
                 '}';
     }
 }
