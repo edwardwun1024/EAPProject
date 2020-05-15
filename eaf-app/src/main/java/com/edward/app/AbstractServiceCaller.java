@@ -9,7 +9,7 @@ import com.edward.http.common.HttpHeader;
 public class AbstractServiceCaller{
 
 
-    public static String host = "http://studio80/";
+    public static String host = "http://studio162/";
 
 
     public abstract interface post{};

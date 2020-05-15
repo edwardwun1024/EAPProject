@@ -68,10 +68,10 @@ public class GunsAppCaller extends AbstractServiceCaller {
 
 
     public String doPost(HttpApi httpApi, Object object){
-        //设置header
-        if(header.authorization() != null){
-            httpConfig.headers(header.build());
-        }
+//        //设置header
+//        if(header.authorization() != null){
+//            httpConfig.headers(header.build());
+//        }
 
 
         httpConfig.method(httpApi.httpMethod.getHttpMethods());

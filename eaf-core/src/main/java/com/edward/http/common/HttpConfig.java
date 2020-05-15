@@ -384,4 +384,11 @@ public class HttpConfig {
     public RequestConfig requestConfig() {
         return requestConfig;
     }
+
+    //用于返回参数map，方便在每次执行后清除
+    public void clearData(){
+        maps.get().clear();
+        map().clear();
+        json = null;
+    }
 }

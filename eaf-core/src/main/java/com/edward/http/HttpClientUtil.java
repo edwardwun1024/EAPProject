@@ -454,13 +454,9 @@ public class HttpClientUtil{
         } catch (IOException e) {
             throw new HttpProcessException(e);
         } finally {
-            //清除静态资源httpconfig.map的缓存数据
-            if(config.map().size() != 0){
-                config.map().clear();
-            }else if(config.json() != null){
-                //清除静态资源httpconfig.json
-                config.json(null);
-            }
+            //清除每一次请求装填参数的静态资源
+            config.clearData();
+
         }
     }
 
