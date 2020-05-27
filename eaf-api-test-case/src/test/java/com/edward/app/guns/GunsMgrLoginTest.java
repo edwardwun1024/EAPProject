@@ -20,8 +20,6 @@ import com.edward.responsebean.basic.BaseRes;
  */
 @Slf4j
 public class GunsMgrLoginTest extends BaseApiTest {
-    @Autowired
-    public GunsAppCaller gunsAppCaller;
 
     @DataProvider(name = "dataPrdGetGunsMgrLoginTest")
     public Object[][] getDataProviderGetGunsMgrLoginDataProvider( ){

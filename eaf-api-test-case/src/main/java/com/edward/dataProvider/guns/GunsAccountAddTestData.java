@@ -14,7 +14,7 @@ public class GunsAccountAddTestData {
 
 
 
-        String account = "wangcheng";
+        String account = "wangcheng1test";
         String password = getEncPwd("Edward2019@");
         String email = "wangcheng@qq.com";
         String name = "wangcheng";

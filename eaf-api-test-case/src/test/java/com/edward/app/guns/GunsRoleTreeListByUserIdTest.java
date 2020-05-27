@@ -9,6 +9,7 @@ import com.edward.responsebean.basic.BaseRes;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -33,10 +34,10 @@ public class GunsRoleTreeListByUserIdTest extends BaseApiTest {
     public void testGetGunsRoleTreeListByUserId(String caseName, GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean, String authorization, EnumCode enumCode){
 
         logger.info("--------------"+caseName+" start--------------");
-        String responseString = new GunsAppCaller().getGunsRoleTreeListByUserId(gunsRoleTreeListByUserIdRequestBean, authorization);
-        BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
-        Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
-        Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
+        String responseString = new GunsAppCaller().getGunsRoleTreeListByUserId(gunsRoleTreeListByUserIdRequestBean);
+        BaseRes response = gson.fromJson(responseString, BaseRes.class);
+        Assert.assertEquals(response.getCode(),enumCode.getCode());
+        Assert.assertEquals(response.getMsg(),enumCode.getMsg());
         logger.info("--------------"+caseName+" end--------------");
     }
 }

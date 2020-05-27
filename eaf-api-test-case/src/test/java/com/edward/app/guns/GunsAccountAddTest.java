@@ -27,7 +27,7 @@ public class GunsAccountAddTest extends BaseApiTest {
     @Test(dataProvider = "dataPrdGetGunsAccountAdd")
     public void testGetGunsMgrLoginTest(String caseName, GunsAccountAddRequestBean gunsAccountAddRequestBean, String authorization, EnumCode enumCode){
         logger.info("--------------"+caseName+" start--------------");
-        String responseString = new GunsAppCaller().getGunsAccountAdd(gunsAccountAddRequestBean, authorization);
+        String responseString = new GunsAppCaller().getGunsAccountAdd(gunsAccountAddRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
         Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
         Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());

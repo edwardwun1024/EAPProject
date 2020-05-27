@@ -25,10 +25,10 @@ public class GunsAccountSetRoleTest extends BaseApiTest {
 
 
     @Test(dataProvider = "dataPrdGunsAccountSetRoleTest")
-    public void testGetGunsRoleTreeListByUserId(String caseName, GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean,String authorization, EnumCode enumCode){
+    public void testGetGunsRoleTreeListByUserId(String caseName, GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean, EnumCode enumCode){
 
         logger.info("--------------"+caseName+" start--------------");
-        String responseString = new GunsAppCaller().getGunsAccountSetRole(gunsAccountSetRoleRequestBean, authorization);
+        String responseString = new GunsAppCaller().getGunsAccountSetRole(gunsAccountSetRoleRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
         Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
         Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
