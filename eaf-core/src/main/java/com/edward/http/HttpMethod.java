@@ -52,7 +52,8 @@ public enum  HttpMethod {
 //		 * HTTP/1.1协议中预留给能够将连接改为管道方式的代理服务器
 //		 */
 //		CONNECT(99, "CONNECT"),
-    POST_FROM(8,"POST", HttpMethods.POST),
+    POST_FORM(8,"POST", HttpMethods.POST),
+    POST_FILE(9,"POST", HttpMethods.POST)
     ;
 
     private int code;

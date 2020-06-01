@@ -11,6 +11,7 @@ import com.edward.http.exception.HttpProcessException;
 import com.edward.responsebean.basic.BaseRes;
 import com.google.gson.Gson;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import static com.edward.app.GunsApp.GUNS_MGR_LOGIN_PATH;
@@ -21,7 +22,7 @@ import static com.edward.app.GunsApp.GUNS_MGR_LOGIN_PATH;
 public class AbstractServiceCaller{
 
 
-    public static String host = "http://studio202/";
+    public static String host = "http://studio203/";
     public static String token = null;
 
 
@@ -47,9 +48,14 @@ public class AbstractServiceCaller{
                 httpConfig.json(jsonString);
                 break;
 
-            case POST_FROM:
+            case POST_FORM:
                 Map<String, Object> map = CommonUtils.transBean2Map(object);
                 httpConfig.map(map);
+                break;
+
+            case POST_FILE:
+                Map<String, Object> mapFileParameter = CommonUtils.transBean2Map(object);
+                httpConfig.files(mapFileParameter);
                 break;
         }
 

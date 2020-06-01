@@ -9,6 +9,6 @@ import com.edward.http.HttpMethod;
  */
 public class UtilityApp {
     public static final String UTILITY_FILE_UPLOAD_IMAGE_PATH = "/UTILITY/files/uploadImage";
-    public static final HttpApi POST_UTILITY_FILE_UPLOAD_IMAGE = new HttpApi(UTILITY_FILE_UPLOAD_IMAGE_PATH, HttpMethod.POST_FROM);
+    public static final HttpApi POST_UTILITY_FILE_UPLOAD_IMAGE = new HttpApi(UTILITY_FILE_UPLOAD_IMAGE_PATH, HttpMethod.POST_FILE);
 
 }

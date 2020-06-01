@@ -231,14 +231,6 @@ public class HttpConfig {
      * @return	返回当前对象
      */
     public HttpConfig files(String[] filePaths, String inputName, boolean forceRemoveContentTypeChraset) {
-//		synchronized (getClass()) {
-//			if(this.map==null){
-//				this.map= new HashMap<String, Object>();
-//			}
-//		}
-//		map.put(Utils.ENTITY_MULTIPART, filePaths);
-//		map.put(Utils.ENTITY_MULTIPART+".name", inputName);
-//		map.put(Utils.ENTITY_MULTIPART+".rmCharset", forceRemoveContentTypeChraset);
 
         Map<String, Object> m = maps.get();
         if(m==null || m==null){
@@ -247,6 +239,30 @@ public class HttpConfig {
         m.put(Utils.ENTITY_MULTIPART, filePaths);
         m.put(Utils.ENTITY_MULTIPART+".name", inputName);
         m.put(Utils.ENTITY_MULTIPART+".rmCharset", forceRemoveContentTypeChraset);
+        maps.set(m);
+        return this;
+    }
+
+    /**
+     * 单个文件且包含参数的文件上传
+     * @param map
+     * @return
+     */
+    public HttpConfig files(Map<String, Object> map) {
+
+        Map<String, Object> m = maps.get();
+        if(m==null || m==null){
+            m = new HashMap<String, Object>();
+        }
+
+        m.put(Utils.ENTITY_MULTIPART, new String[]{map.get("filePath").toString()});
+        m.put(Utils.ENTITY_MULTIPART+".name", map.get("fileName"));
+        m.put(Utils.ENTITY_MULTIPART+".rmCharset", false);
+        //清除file相关的固定key-value
+        map.remove("filePath");
+        map.remove("fileName");
+        //将剩下的parameter加到maps中
+        m.putAll(map);
         maps.set(m);
         return this;
     }

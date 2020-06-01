@@ -133,7 +133,7 @@ public class Utils {
 //							//把文件转换成流对象FileBody
 //							FileBody fileBody = new FileBody(file);
 //							builder.addPart(String.valueOf(map.get(ENTITY_MULTIPART+".name")) + count++, fileBody);
-                            builder.addBinaryBody(String.valueOf(map.get(ENTITY_MULTIPART+".name")) + count++,file);
+                            builder.addBinaryBody(String.valueOf(map.get(ENTITY_MULTIPART+".name")),file);
                         }
                         boolean forceRemoveContentTypeCharset = (Boolean)map.get(ENTITY_MULTIPART+".rmCharset");
                         Map<String, Object> m = new HashMap<String, Object>();
