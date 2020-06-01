@@ -1,6 +1,7 @@
 package com.edward.Base;
 
 import com.google.gson.Gson;
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 public class BaseApiTest {

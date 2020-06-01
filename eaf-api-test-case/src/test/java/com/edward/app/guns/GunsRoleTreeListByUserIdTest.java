@@ -18,7 +18,6 @@ import org.testng.annotations.Test;
  * url:role/roleTreeListByUserId
  * 功能：根据userId获取user权限
  */
-@Slf4j
 public class GunsRoleTreeListByUserIdTest extends BaseApiTest {
     @Autowired
     public GunsAppCaller gunsAppCaller;
