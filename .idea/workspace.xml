@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="252bfca4-ecb8-4b81-a0aa-74b233a8f5f6" name="Default Changelist" comment="优化appcaller doPost，减少代码重复">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/Base/BaseApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/Base/BaseApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsRoleTreeListByUserIdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsRoleTreeListByUserIdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/Base/BaseApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/Base/BaseApiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsMgrLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsMgrLoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsRoleTreeListByUserIdTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsRoleTreeListByUserIdTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/GunsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/GunsApp.class" afterDir="false" />
@@ -45,6 +39,7 @@
         <option value="yml" />
         <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
       </list>
     </option>
@@ -80,7 +75,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guns" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eaf-core/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -90,12 +86,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-core\src\main\resources\img" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.edward" />
       <recent name="common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eaf-core/src/main/resources" />
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-api-test-case\src\main\java\com\edward" />
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-api-test-case\src\main\java" />
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-app\src\main\java\responsebean\person" />
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-app\src\main\java\appcaller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.edward.dataProvider.guns" />
@@ -104,12 +104,8 @@
       <recent name="person" />
       <recent name="guns" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-api-test-case\src\main\java\com\edward" />
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-api-test-case\src\main\java" />
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-app\src\main\java\responsebean\person" />
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-app\src\main\java\appcaller" />
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-app\src\main\java\app" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-core\src\main\resources\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,8 +235,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GunsMgrLoginTest.testGetGunsMgrLoginTest" />
-        <item itemvalue="Spring Boot.EafCoreApplication" />
         <item itemvalue="TestNG.GunsScenarioTest.genAccountAndSetRoleTest" />
+        <item itemvalue="Spring Boot.EafCoreApplication" />
         <item itemvalue="TestNG.UtilityFilesUploadImageTest.testGetGunsMgrLoginTest" />
         <item itemvalue="TestNG.GunsRoleTreeListByUserIdTest.testGetGunsRoleTreeListByUserId" />
       </list>
@@ -298,7 +294,8 @@
       <workItem from="1590655526256" duration="3284000" />
       <workItem from="1590747347078" duration="614000" />
       <workItem from="1590999675339" duration="7467000" />
-      <workItem from="1591020297918" duration="7559000" />
+      <workItem from="1591020297918" duration="7911000" />
+      <workItem from="1591112704922" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="基本框架搭建">
       <created>1576462422977</created>
@@ -377,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590572549455</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="优化log4j.properties">
+      <created>1591030519061</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591030519061</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +424,8 @@
     <MESSAGE value="添加gunsservice，优化接口之间token的传递" />
     <MESSAGE value="优化appcaller doPost，减少代码重复" />
     <MESSAGE value="优化token及case" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化token及case" />
+    <MESSAGE value="优化log4j.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化log4j.properties" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
