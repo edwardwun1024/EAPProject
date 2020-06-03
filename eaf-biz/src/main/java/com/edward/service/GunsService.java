@@ -18,10 +18,7 @@ import java.util.List;
  * @author wangcheng
  * @date 2020/5/12 15:14
  */
-public class GunsService {
-    public static final Logger logger = Logger.getLogger("HttpClient(异步)工具类");
-    public static final Gson gson = new Gson();
-    public GunsAppCaller gunsAppCaller = new GunsAppCaller();
+public class GunsService extends BaseService{
 
     /**
      * 在top部门下创建一个角色为admin的用户

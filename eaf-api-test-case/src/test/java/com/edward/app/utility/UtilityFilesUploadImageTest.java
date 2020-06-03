@@ -11,6 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 /**
+ * 功能：上传图片
  * @author wangcheng
  * @date 2020/5/27 15:33
  */

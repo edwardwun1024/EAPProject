@@ -10,10 +10,7 @@ import org.testng.annotations.Test;
  */
 public class GunsScenarioTest {
 
-    /**
-     * 生成一个admin权限的用户
-     */
-    @Test
+    @Test(description = "生成一个admin权限的用户")
     private void genAccountAndSetRoleTest(){
         GunsService gunsService = new GunsService();
         gunsService.genAccountWithAdminRole();

@@ -1,6 +1,7 @@
 package com.edward.dataProvider.person;
 
 
+import com.edward.common.EnumCode;
 import com.edward.requestbean.person.bean.PersonGroupListRequestBean;
 
 public class PersonGroupListTestData {
@@ -13,7 +14,7 @@ public class PersonGroupListTestData {
         personGroupListRequestBean.setGroupId("");
 
         return new Object[][]{
-                {"获取组的list",personGroupListRequestBean,"responseCode"}
+                {"获取组的list",personGroupListRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 

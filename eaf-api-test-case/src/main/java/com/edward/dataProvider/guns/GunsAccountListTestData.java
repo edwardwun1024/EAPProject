@@ -22,7 +22,7 @@ public class GunsAccountListTestData {
 
 
         return new Object[][]{
-                {"添加账号",gunsAccountListRequestBean, EnumCode.BASE_SUCCESS}
+                {"根据条件查询账号",gunsAccountListRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

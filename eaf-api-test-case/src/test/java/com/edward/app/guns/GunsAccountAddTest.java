@@ -18,7 +18,6 @@ import org.testng.annotations.Test;
 public class GunsAccountAddTest extends BaseApiTest {
     @DataProvider(name = "dataPrdGetGunsAccountAdd")
     public Object[][] getDataProviderGetGunsMgrLoginDataProvider( ){
-        //通过context.class 获取PersonGroupListTestData.genPersonGroupListTestData
         GunsAccountAddTestData gunsAccountAddTestData = new GunsAccountAddTestData();
         return gunsAccountAddTestData.genGunsAccountAddTestData();
     }

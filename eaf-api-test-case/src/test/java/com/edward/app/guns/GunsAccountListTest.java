@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 
 /**
+ * 根据条件查询账号
  * @author wangcheng
  * @date 2020/6/3 15:12
  */

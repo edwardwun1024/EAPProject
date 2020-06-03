@@ -23,7 +23,7 @@ public class AbstractServiceCaller{
 
 
     public static String host = "http://studio203/";
-    public static String token = null;
+    public static String token = "Basic d2FuZ2NoZW5nLDA6ejIwaTh0";
 
 
     public abstract interface post{};
