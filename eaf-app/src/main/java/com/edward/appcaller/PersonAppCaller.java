@@ -23,10 +23,26 @@ public class PersonAppCaller extends AbstractServiceCaller {
     }
 
     public String getPostPersonAddMemberToGroups(PersonAddMemberToGroupsRequestBean personAddMemberToGroupsRequestBean){
-        return this.getPostPersonAddMemberToGroups(POST_PERSON_MEMBER_ADDMEMBERTOGROUP,personAddMemberToGroupsRequestBean);
+        return this.getPostPersonAddMemberToGroups(POST_PERSON_MEMBER_ADDMEMBERTOGROUPS,personAddMemberToGroupsRequestBean);
     }
-    private String getPostPersonAddMemberToGroups(HttpApi POST_PERSON_MEMBER_ADDMEMBERTOGROUP, PersonAddMemberToGroupsRequestBean personAddMemberToGroupsRequestBean){
-        return doPost(POST_PERSON_MEMBER_ADDMEMBERTOGROUP,personAddMemberToGroupsRequestBean);
+    private String getPostPersonAddMemberToGroups(HttpApi POST_PERSON_MEMBER_ADDMEMBERTOGROUPS, PersonAddMemberToGroupsRequestBean personAddMemberToGroupsRequestBean){
+        return doPost(POST_PERSON_MEMBER_ADDMEMBERTOGROUPS,personAddMemberToGroupsRequestBean);
+    }
+
+    public String getPostPersonPersonGroupCreate(){
+        return this.getPostPersonPersonGroupCreate(POST_PERSON_PERSONGROUP_CREATE,"");
+    }
+
+    public String getPostPersonPersonGroupCreate(HttpApi POST_PERSON_PERSONGROUP_CREATE,String s){
+        return doPost(POST_PERSON_PERSONGROUP_CREATE,"");
+    }
+
+    public String getPostPersonMemberAddGroupMember(){
+        return this.getPostPersonAddGroupMember(POST_PERSON_MEMBER_ADDGROUPMEMBER,"");
+    }
+
+    public String getPostPersonAddGroupMember(HttpApi POST_PERSON_MEMBER_ADDGROUPMEMBER,String s){
+        return doPost(POST_PERSON_MEMBER_ADDGROUPMEMBER,"");
     }
 
 

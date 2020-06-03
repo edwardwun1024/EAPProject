@@ -4,8 +4,11 @@ import com.edward.appcaller.PersonAppCaller;
 import com.edward.requestbean.person.bean.PersonAddMemberToGroupsRequestBean;
 import com.edward.requestbean.person.bean.PersonCreateRequestBean;
 import com.edward.responsebean.basic.BaseRes;
+import org.junit.Test;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -18,8 +21,8 @@ public class PersonService extends BaseService{
     public void genPersonAndAddPersonToGoups(){
 
         //1、创建person
-        String cnName = "wc-person-02";
-        String idNumber = "id-wc-person-02";
+        String cnName = genPersonNameByCurrentTime();
+        String idNumber = genIdNumberByPersonName(cnName);
         String imageUrl = "/images/person/20200603/67/df6b92bbcdbc3bdd5b8c107562be984a.jpeg";
         String operatePerson = "60";
         PersonCreateRequestBean personCreateRequestBean = new PersonCreateRequestBean();
@@ -45,4 +48,19 @@ public class PersonService extends BaseService{
         BaseRes personAddMemberToGroupsResponseBaseRes = gson.fromJson(responseString,BaseRes.class);
 
     }
+
+    //根据当前时间生成用户名
+    public String genPersonNameByCurrentTime(){
+        String personName = "";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MMddHHmmss-SSS"); //获取当前时间精确到毫秒
+        personName = "wc-person-" + simpleDateFormat.format(new Date());
+        return personName;
+    }
+
+    //根据用户名，拼装idNumber
+    public String genIdNumberByPersonName(String personName){
+        String idNumber = "id-" + personName;
+        return idNumber;
+    }
+
 }
