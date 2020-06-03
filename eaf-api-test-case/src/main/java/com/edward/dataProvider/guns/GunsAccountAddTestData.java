@@ -40,7 +40,7 @@ public class GunsAccountAddTestData {
 
 
         return new Object[][]{
-                {"添加账号",gunsAccountAddRequestBean, "YWRtaW4sMDplbHRjeGs=", EnumCode.BASE_SUCCESS}
+                {"添加账号",gunsAccountAddRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 

@@ -2,15 +2,17 @@ package com.edward.service;
 
 import com.edward.appcaller.GunsAppCaller;
 import com.edward.common.AES256Utils;
-import com.edward.requestbean.guns.bean.GunsAccountAddRequestBean;
-import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
-import com.edward.requestbean.guns.bean.GunsRoleTreeListByUserIdRequestBean;
+import com.edward.requestbean.guns.bean.*;
 import com.edward.responsebean.basic.BaseRes;
+import com.edward.responsebean.basic.PageRes;
+import com.edward.responsebean.guns.UserDto;
 import com.edward.responsebean.guns.ZTreeNode;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author wangcheng
@@ -47,10 +49,10 @@ public class GunsService {
         BaseRes loginResponse = gson.fromJson(gunsMrgLoginResponse, BaseRes.class);
 
         //2、创建account
-        String addAccount = "wangcheng1";
+        String addAccount = "wangcheng";
         String addAccountPassword = getEncPwd("Edward2019@");
         String email = "wangcheng@qq.com";
-        String accountName = "wangcheng1";
+        String accountName = "wangcheng";
         String addAccountRePassword = addAccountPassword;
         Integer deptid = 0;
         String phone = "16602103425";
@@ -74,11 +76,45 @@ public class GunsService {
         GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean = new GunsRoleTreeListByUserIdRequestBean();
         gunsRoleTreeListByUserIdRequestBean.setUserId(userId);
         String gunsRoleTreeListByUserIdResponseString = new GunsAppCaller().getGunsRoleTreeListByUserId(gunsRoleTreeListByUserIdRequestBean);
-        BaseRes<ZTreeNode> gunsRoleTreeListByUserIdBaseResponse = gson.fromJson(gunsRoleTreeListByUserIdResponseString, BaseRes.class);
+        BaseRes<ArrayList<ZTreeNode>> baseRes = gson.fromJson(gunsRoleTreeListByUserIdResponseString,new TypeToken<BaseRes<ArrayList<ZTreeNode>>>(){}.getType());
+        ZTreeNode adminRole = null;
+        for(int i=0;i<baseRes.getData().size();i++ ){
+            //边离roles列表，获取admin角色
+            if(baseRes.getData().get(i).getId() == 1){
+                adminRole = baseRes.getData().get(i);
+                break;
 
+            }
+        }
 
+        //4、根据accountName查询account信息-模糊查询
+        String queryAcountName = addAccount;
+        Integer count = 1;
+        Integer pageSise = 10;
 
+        GunsAccountListRequestBean gunsAccountListRequestBean = new GunsAccountListRequestBean();
+        gunsAccountListRequestBean.setName(queryAcountName);
+        gunsAccountListRequestBean.setCurrent(count);
+        gunsAccountListRequestBean.setSize(pageSise);
+        String responseString = new GunsAppCaller().getGunsAccountList(gunsAccountListRequestBean);
+        PageRes<ArrayList<UserDto>> pageRes = gson.fromJson(responseString, new TypeToken<PageRes<ArrayList<UserDto>>>(){}.getType());
+        UserDto userDto = null;
+        for(int i=0;i<pageRes.getData().size();i++ ){
+            //遍历account列表，获取对应的account
+            if(pageRes.getData().get(i).getName().equals(addAccount)){
+                userDto = pageRes.getData().get(i);
+                break;
 
+            }
+        }
+
+        //5、为新添加的用户设置admin角色
+        Integer userDtoId = userDto.getId();
+        GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean = new GunsAccountSetRoleRequestBean();
+        gunsAccountSetRoleRequestBean.setUserId(userDtoId);
+        gunsAccountSetRoleRequestBean.setRoleIds(adminRole.getId().toString());
+        String accountSetRoleResponseString = new GunsAppCaller().getGunsAccountSetRole(gunsAccountSetRoleRequestBean);
+        BaseRes accountSetRoleBaseRes = gson.fromJson(accountSetRoleResponseString, BaseRes.class);
 
         return "";
     }

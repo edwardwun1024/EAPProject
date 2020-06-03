@@ -2,10 +2,7 @@ package com.edward.appcaller;
 
 import com.edward.app.AbstractServiceCaller;
 import com.edward.http.HttpApi;
-import com.edward.requestbean.guns.bean.GunsAccountAddRequestBean;
-import com.edward.requestbean.guns.bean.GunsAccountSetRoleRequestBean;
-import com.edward.requestbean.guns.bean.GunsRoleTreeListByUserIdRequestBean;
-import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
+import com.edward.requestbean.guns.bean.*;
 
 import static com.edward.app.GunsApp.*;
 
@@ -35,8 +32,15 @@ public class GunsAppCaller extends AbstractServiceCaller {
     public String getGunsAccountSetRole(GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean){
         return this.getGunsAccountSetRole(POST_GUNS_ACCOUNT_SETROLE,gunsAccountSetRoleRequestBean);
     }
-    public String getGunsAccountSetRole(HttpApi POST_GUNS_ROLE_TREE_LIST_BY_USERID,GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean){
+    private String getGunsAccountSetRole(HttpApi POST_GUNS_ROLE_TREE_LIST_BY_USERID,GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean){
         return doPost(POST_GUNS_ACCOUNT_SETROLE,gunsAccountSetRoleRequestBean);
+    }
+
+    public String getGunsAccountList(GunsAccountListRequestBean gunsAccountListRequestBean){
+        return getGunsAccountList(POST_GUNS_ACCOUNT_LIST,gunsAccountListRequestBean);
+    }
+    private String getGunsAccountList(HttpApi POST_GUNS_ACCOUNT_LIST, GunsAccountListRequestBean gunsAccountListRequestBean){
+        return doPost(POST_GUNS_ACCOUNT_LIST,gunsAccountListRequestBean);
     }
 
 }

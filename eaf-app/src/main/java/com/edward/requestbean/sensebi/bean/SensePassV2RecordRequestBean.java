@@ -20,8 +20,6 @@ public class SensePassV2RecordRequestBean {
     private String sign_avatar;
     @ApiModelProperty(value = "人脸场景图片Base64字符串", name = "sign_bg_avatar")
     private String sign_bg_avatar;
-    //    @ApiModelProperty(value = "身份证证件照图Base64字符串", name = "doc_photo")
-//    private String doc_photo;
     @ApiModelProperty(value = "打卡时间[时间戳秒级]", name = "sign_time")
     private int sign_time;
     @ApiModelProperty(value = "类型:{1:员工, 2:访客, 3:陌生人,4:非活体,5:员工未授权,6:访客未授权, 999:其他}", name = "type")

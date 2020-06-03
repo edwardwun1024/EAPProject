@@ -13,7 +13,7 @@ public class GunsApp {
     public static final String GUNS_ACCOUNT_SETROLE_PATH = "/GUNS/account/setRole";
     public static final HttpApi POST_GUNS_ACCOUNT_SETROLE = new HttpApi(GUNS_ACCOUNT_SETROLE_PATH, HttpMethod.POST_FORM);
     public static final String GUNS_ACCOUNT_LIST_PAHT = "/GUNS/account/list";
-    public static final HttpApi POST_GUNS_ACCOUNT_LIST = new HttpApi(GUNS_ACCOUNT_LIST_PAHT, HttpMethod.POST_FORM);
+    public static final HttpApi POST_GUNS_ACCOUNT_LIST = new HttpApi(GUNS_ACCOUNT_LIST_PAHT, HttpMethod.POST_JSON);
 
 
 

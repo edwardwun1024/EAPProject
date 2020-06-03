@@ -32,7 +32,6 @@ public class GunsMgrLoginTest extends BaseApiTest {
 
         logger.info("--------------"+caseName+" start--------------");
         String responseString = new GunsAppCaller().getGunsMgrLogin(gunsMgrLoginRequestBean);
-//        String responseString = gunsAppCaller.getGunsMgrLogin(gunsMgrLoginRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
         Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
         Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
