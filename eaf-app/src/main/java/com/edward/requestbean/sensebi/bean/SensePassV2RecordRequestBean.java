@@ -1,6 +1,10 @@
 package com.edward.requestbean.sensebi.bean;
 
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
@@ -8,6 +12,10 @@ import java.util.List;
  * @author wangcheng
  * @date 2020/4/20 11:30
  */
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class SensePassV2RecordRequestBean {
     @ApiModelProperty(value = "用户ID", name = "user_id")
     private int user_id;
@@ -46,206 +54,4 @@ public class SensePassV2RecordRequestBean {
     @ApiModelProperty(value = "体温", name = "body_temperature")
     private double body_temperature;
 
-
-    public SensePassV2RecordRequestBean() {
-    }
-
-    public SensePassV2RecordRequestBean(int user_id, String user_name, Integer abnormal_type, String sign_avatar, String sign_bg_avatar, int sign_time, int type, String id_number, String ic_number, String id_info, String description, String score, Integer mode, int in_time, int entry_mode, double verify_score, List<IdentifyDataReq.VerticesBean> rectangle, int push_option, double body_temperature) {
-        this.user_id = user_id;
-        this.user_name = user_name;
-        this.abnormal_type = abnormal_type;
-        this.sign_avatar = sign_avatar;
-        this.sign_bg_avatar = sign_bg_avatar;
-        this.sign_time = sign_time;
-        this.type = type;
-        this.id_number = id_number;
-        this.ic_number = ic_number;
-        this.id_info = id_info;
-        this.description = description;
-        this.score = score;
-        this.mode = mode;
-        this.in_time = in_time;
-        this.entry_mode = entry_mode;
-        this.verify_score = verify_score;
-        this.rectangle = rectangle;
-        this.push_option = push_option;
-        this.body_temperature = body_temperature;
-    }
-
-    public int getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
-    }
-
-    public String getUser_name() {
-        return user_name;
-    }
-
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
-    }
-
-    public Integer getAbnormal_type() {
-        return abnormal_type;
-    }
-
-    public void setAbnormal_type(Integer abnormal_type) {
-        this.abnormal_type = abnormal_type;
-    }
-
-    public String getSign_avatar() {
-        return sign_avatar;
-    }
-
-    public void setSign_avatar(String sign_avatar) {
-        this.sign_avatar = sign_avatar;
-    }
-
-    public String getSign_bg_avatar() {
-        return sign_bg_avatar;
-    }
-
-    public void setSign_bg_avatar(String sign_bg_avatar) {
-        this.sign_bg_avatar = sign_bg_avatar;
-    }
-
-    public int getSign_time() {
-        return sign_time;
-    }
-
-    public void setSign_time(int sign_time) {
-        this.sign_time = sign_time;
-    }
-
-    public int getType() {
-        return type;
-    }
-
-    public void setType(int type) {
-        this.type = type;
-    }
-
-    public String getId_number() {
-        return id_number;
-    }
-
-    public void setId_number(String id_number) {
-        this.id_number = id_number;
-    }
-
-    public String getIc_number() {
-        return ic_number;
-    }
-
-    public void setIc_number(String ic_number) {
-        this.ic_number = ic_number;
-    }
-
-    public String getId_info() {
-        return id_info;
-    }
-
-    public void setId_info(String id_info) {
-        this.id_info = id_info;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getScore() {
-        return score;
-    }
-
-    public void setScore(String score) {
-        this.score = score;
-    }
-
-    public Integer getMode() {
-        return mode;
-    }
-
-    public void setMode(Integer mode) {
-        this.mode = mode;
-    }
-
-    public int getIn_time() {
-        return in_time;
-    }
-
-    public void setIn_time(int in_time) {
-        this.in_time = in_time;
-    }
-
-    public int getEntry_mode() {
-        return entry_mode;
-    }
-
-    public void setEntry_mode(int entry_mode) {
-        this.entry_mode = entry_mode;
-    }
-
-    public double getVerify_score() {
-        return verify_score;
-    }
-
-    public void setVerify_score(double verify_score) {
-        this.verify_score = verify_score;
-    }
-
-    public List<IdentifyDataReq.VerticesBean> getRectangle() {
-        return rectangle;
-    }
-
-    public void setRectangle(List<IdentifyDataReq.VerticesBean> rectangle) {
-        this.rectangle = rectangle;
-    }
-
-    public int getPush_option() {
-        return push_option;
-    }
-
-    public void setPush_option(int push_option) {
-        this.push_option = push_option;
-    }
-
-    public double getBody_temperature() {
-        return body_temperature;
-    }
-
-    public void setBody_temperature(double body_temperature) {
-        this.body_temperature = body_temperature;
-    }
-
-    @Override
-    public String toString() {
-        return "SensePassV2RecordRequestBean{" +
-                "user_id=" + user_id +
-                ", user_name='" + user_name + '\'' +
-                ", abnormal_type=" + abnormal_type +
-                ", sign_avatar='" + sign_avatar + '\'' +
-                ", sign_bg_avatar='" + sign_bg_avatar + '\'' +
-                ", sign_time=" + sign_time +
-                ", type=" + type +
-                ", id_number='" + id_number + '\'' +
-                ", ic_number='" + ic_number + '\'' +
-                ", id_info='" + id_info + '\'' +
-                ", description='" + description + '\'' +
-                ", score='" + score + '\'' +
-                ", mode=" + mode +
-                ", in_time=" + in_time +
-                ", entry_mode=" + entry_mode +
-                ", verify_score=" + verify_score +
-                ", rectangle=" + rectangle +
-                ", push_option=" + push_option +
-                ", body_temperature=" + body_temperature +
-                '}';
-    }
 }

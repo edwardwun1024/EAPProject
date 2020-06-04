@@ -1,5 +1,14 @@
 package com.edward.responsebean.person;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class PersonGroupListRes {
     private String groupId;
     private String cnName;
