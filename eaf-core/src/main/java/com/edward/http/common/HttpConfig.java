@@ -1,5 +1,6 @@
 package com.edward.http.common;
 
+import com.edward.http.HttpApi;
 import org.apache.http.Header;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
@@ -50,6 +51,8 @@ public class HttpConfig {
      * 请求方法
      */
     private HttpMethods method=HttpMethods.GET;
+
+    private HttpApi httpApi;
 
     /**
      * 请求方法名称
@@ -156,6 +159,14 @@ public class HttpConfig {
     }
 
     /**
+     * 设置HttpAPI
+     */
+    public HttpConfig httpApi(HttpApi httpApi){
+        this.httpApi = httpApi;
+        return this;
+    }
+
+    /**
      * @param methodName	请求方法
      * @return	返回当前对象
      */
@@ -178,13 +189,6 @@ public class HttpConfig {
      * @return	返回当前对象
      */
     public HttpConfig map(Map<String, Object> map) {
-//		synchronized (getClass()) {
-//			if(this.map==null || map==null){
-//				this.map = map;
-//			}else {
-//				this.map.putAll(map);;
-//			}
-//		}
         Map<String, Object> m = maps.get();
         if(m==null || m==null || map==null){
             m = map;
@@ -192,6 +196,19 @@ public class HttpConfig {
             m.putAll(map);
         }
         maps.set(m);
+        return this;
+    }
+
+    /**
+     * 带参数的url拼装
+     * 请求参数类型：@RequestParam
+     * 适用于get 和 post
+     * @param map
+     * @return
+     */
+    public HttpConfig params(Map<String, Object> map){
+        String paramUrl = new Utils().buildUrlByParas(map);
+        url(this.url()+paramUrl);
         return this;
     }
 
@@ -214,6 +231,7 @@ public class HttpConfig {
     public HttpConfig files(String[] filePaths) {
         return files(filePaths, "file");
     }
+
     /**
      * 上传文件时用到
      * @param filePaths	待上传文件所在路径
@@ -223,6 +241,7 @@ public class HttpConfig {
     public HttpConfig files(String[] filePaths, String inputName) {
         return files(filePaths, inputName, false);
     }
+
     /**
      * 上传文件时用到
      * @param filePaths		待上传文件所在路径
@@ -364,6 +383,8 @@ public class HttpConfig {
         return method;
     }
 
+    public HttpApi httpApi(){return httpApi;}
+
     public String methodName() {
         return methodName;
     }
@@ -403,8 +424,11 @@ public class HttpConfig {
 
     //用于返回参数map，方便在每次执行后清除
     public void clearData(){
-        maps.get().clear();
-        map().clear();
-        json = null;
+        if (maps.get() != null)
+            maps.get().clear();
+        if (map() != null)
+            map().clear();
+        if (json != null)
+            json = null;
     }
 }

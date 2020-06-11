@@ -13,8 +13,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author wangcheng
@@ -26,10 +25,10 @@ public class CommonUtils {
 
     /**
      * 图片转换成Base64Code
-     * @param localImagePath
-     * eg:/Users/wangcheng1_vendor/Pictures/539091750513872709.jpg
+     *
+     * @param localImagePath eg:/Users/wangcheng1_vendor/Pictures/539091750513872709.jpg
      */
-    public static String imageToBase64Code(String localImagePath){
+    public static String imageToBase64Code(String localImagePath) {
         byte[] data = null;
         File file = new File(localImagePath);
         try {
@@ -53,13 +52,13 @@ public class CommonUtils {
     }
 
     /**
-     * 将object转换成Map<String,Object>
+     * 将object转换成Map<String,Object>*
      * @param obj
      * @return
      */
     public static Map<String, Object> transBean2Map(Object obj) {
 
-        if(obj == null){
+        if (obj == null) {
             return null;
         }
         Map<String, Object> map = new HashMap<String, Object>();
@@ -87,10 +86,19 @@ public class CommonUtils {
 
     }
 
+    public List mapToList(Map<String, Object> map) {
+        List list = new ArrayList();
+        //把map转换成list的公共方法
+        map.forEach((k, v) -> System.out.println("key:value = " + k + ":" + v));
+//        map.entrySet().stream().map(e -> new Person(e.getKey(),e.getValue())).collect(Collectors.toList());
+
+
+        return list;
+    }
 
 
     @Test
-    public void getBase64Code(){
+    public void getBase64Code() {
         String localImagePath = "/Users/wangcheng1_vendor/Pictures/539091750513872709.jpg";
         String base64Code = imageToBase64Code(localImagePath);
         System.out.println(base64Code);

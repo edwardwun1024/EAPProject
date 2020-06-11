@@ -1,53 +1,44 @@
-package com.edward.app;
+package com.edward.implement;
 
 import com.alibaba.fastjson.JSONObject;
+import com.edward.app.AbstractServiceCaller;
 import com.edward.common.CommonUtils;
 import com.edward.common.EnumCode;
 import com.edward.http.HttpApi;
 import com.edward.http.HttpClientUtil;
 import com.edward.http.common.HttpConfig;
 import com.edward.http.common.HttpHeader;
-import com.edward.http.common.Utils;
-import com.edward.http.common.util.PropertiesUtil;
 import com.edward.http.exception.HttpProcessException;
 import com.edward.responsebean.basic.BaseRes;
 import com.google.gson.Gson;
 
 import java.util.Map;
-import java.util.Properties;
 
 import static com.edward.app.GunsApp.GUNS_MGR_LOGIN_PATH;
 
 /**
- * 抽象类，提供post和get抽象方法
+ * AbstractServiceCaller 实现类
+ * @author wangcheng
+ * @date 2020/6/9 16:12
  */
-public class AbstractServiceCaller{
+public class ServiceCallerImplement extends AbstractServiceCaller{
 
 
-    public static String host = "http://studio202/";
-    public static String token = "Basic d2FuZ2NoZW5nLDA6ajMydjhi";
-
-
-
-
-    public abstract interface doPost{};
-
-    public String doPost(HttpApi httpApi, Object object){
-        PropertiesUtil properties = new PropertiesUtil();
+    @Override
+    public String doPost(HttpApi httpApi, Object object) {
         HttpHeader header = HttpHeader.custom();
         HttpConfig httpConfig = HttpConfig.custom();
-        httpConfig.httpApi(httpApi);
         //设置header
         if(token != null){
             header.authorization(token);
             httpConfig.headers(header.build());
         }
 
-        httpConfig.method(httpConfig.httpApi().httpMethod.getHttpMethods());
+        httpConfig.method(httpApi.httpMethod.getHttpMethods());
         httpConfig.url(host + httpApi.path);
 
         //适配post请求类型不同bodytype
-        switch (httpConfig.httpApi().httpMethod){
+        switch (httpApi.httpMethod){
             case POST_JSON:
                 String jsonString = JSONObject.toJSONString(object);
                 httpConfig.json(jsonString);
@@ -63,9 +54,6 @@ public class AbstractServiceCaller{
                 httpConfig.files(mapFileParameter);
                 break;
             case POST_PARAM:
-                Map<String, Object> paramsMap = CommonUtils.transBean2Map(object);
-                httpConfig.params(paramsMap);
-                break;
 
         }
 
@@ -85,7 +73,6 @@ public class AbstractServiceCaller{
         }
         return result;
     }
-
 
 
 }

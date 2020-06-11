@@ -53,7 +53,8 @@ public enum  HttpMethod {
 //		 */
 //		CONNECT(99, "CONNECT"),
     POST_FORM(8,"POST", HttpMethods.POST),
-    POST_FILE(9,"POST", HttpMethods.POST)
+    POST_FILE(9,"POST", HttpMethods.POST),
+    POST_PARAM(10,"POST",HttpMethods.POST)
     ;
 
     private int code;

@@ -1,37 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252bfca4-ecb8-4b81-a0aa-74b233a8f5f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonGroupCreateTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonMemberAddGroupMemberTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonGroupCreateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonMemberAddGroupMemberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonGroupCreateRequestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonMemberAddGroupMemberRequestBean.java" afterDir="false" />
+    <list default="true" id="252bfca4-ecb8-4b81-a0aa-74b233a8f5f6" name="Default Changelist" comment="1、添加case：创建组、将人加到组中&#10;2、优化：requetbean 使用lombok注解来get、set">
+      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaIsExistsTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListAppByProductTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListProductTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaUpdatePackageTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaIsExistsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListAppByProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaUpdatePackageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/implement/ServiceCallerImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaIsExistsRequestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaListAppByProductRequestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaListProductRequestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaUpdatePackageRequestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/ToolEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerItemModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/services/SwaggerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/AbstractServiceCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/AbstractServiceCaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/PersonAppCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/PersonAppCaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/base/BasePageReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/base/BasePageReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountAddRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountAddRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountSetRoleRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountSetRoleRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsMgrLoginRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsMgrLoginRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsRoleTreeListByUserIdRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsRoleTreeListByUserIdRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonAddMemberToGroupsRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonAddMemberToGroupsRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonCreateRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonCreateRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonGroupListRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonGroupListRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/sensebi/bean/SensePassV2RecordRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/sensebi/bean/SensePassV2RecordRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityFilesUploadImageRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityFilesUploadImageRequestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/basic/BaseRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/basic/BaseRes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/basic/PageRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/basic/PageRes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/guns/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/guns/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/guns/ZTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/guns/ZTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/person/PersonGroupListRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/person/PersonGroupListRes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/META-INF/eaf-app.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/META-INF/eaf-app.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/UtilityApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/UtilityApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/UtilityAppCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/UtilityAppCaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller$get.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller$post.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/AbstractServiceCaller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/PersonApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/PersonApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/appcaller/PersonAppCaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/appcaller/PersonAppCaller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/UtilityApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/UtilityApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/appcaller/UtilityAppCaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/appcaller/UtilityAppCaller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/config/properties/EnvProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/resources/application-80.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/resources/studio202.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/application-80.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/CommonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpClientUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/config/properties/EnvProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/PropertiesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/PropertiesUtil.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/eaf-core/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eaf-app/target/" />
+    <ignored path="$PROJECT_DIR$/eaf-biz/target/" />
+    <ignored path="$PROJECT_DIR$/eaf-api-test-case/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +80,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListAppByProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="16" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/PersonApp.java">
+        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/PropertiesUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaUpdatePackageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,37 +128,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/AbstractServiceCaller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-304">
-              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/GunsScenarioTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="532">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java">
+        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="177">
+              <caret line="206" column="40" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/base/BasePageReq.java">
+        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="11" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="326">
+              <caret line="208" column="28" selection-start-line="208" selection-start-column="22" selection-end-line="208" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4640#4641#0" expanded="true" />
+                <element signature="e#4697#4698#0" expanded="true" />
+                <element signature="e#7811#7812#0" expanded="true" />
+                <element signature="e#7840#7841#0" expanded="true" />
+                <element signature="e#7873#7874#0" expanded="true" />
+                <element signature="e#7903#7904#0" expanded="true" />
+                <element signature="e#7946#7947#0" expanded="true" />
+                <element signature="e#7988#7989#0" expanded="true" />
+                <element signature="e#8015#8016#0" expanded="true" />
+                <element signature="e#8048#8049#0" expanded="true" />
+                <element signature="e#8083#8084#0" expanded="true" />
+                <element signature="e#8112#8113#0" expanded="true" />
+                <element signature="e#8193#8194#0" expanded="true" />
+                <element signature="e#8226#8227#0" expanded="true" />
+                <element signature="e#8262#8263#0" expanded="true" />
+                <element signature="e#8292#8293#0" expanded="true" />
+                <element signature="e#8409#8410#0" expanded="true" />
+                <element signature="e#8436#8437#0" expanded="true" />
+                <element signature="e#8468#8469#0" expanded="true" />
+                <element signature="e#8499#8500#0" expanded="true" />
+                <element signature="e#8528#8529#0" expanded="true" />
+                <element signature="e#8583#8584#0" expanded="true" />
+                <element signature="e#8613#8614#0" expanded="true" />
+                <element signature="e#8670#8671#0" expanded="true" />
+                <element signature="e#8703#8704#0" expanded="true" />
+                <element signature="e#8736#8737#0" expanded="true" />
+                <element signature="e#8780#8781#0" expanded="true" />
+                <element signature="e#8816#8817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +198,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>accountName</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,8 +230,34 @@
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/guns/UserDto.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/guns/ZTreeNode.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/person/PersonGroupListRes.java" />
-        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/AbstractServiceCaller.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerItemModel.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectModel.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectBean.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/ToolEntry.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/services/SwaggerService.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaIsExistsRequestBean.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListProductTest.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListProductTestData.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListAppByProductTest.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaIsExistsTest.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaUpdatePackageRequestBean.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaUpdatePackageTest.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaUpdatePackageTestData.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpMethod.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/implement/ServiceCallerImplement.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/UtilityAppCaller.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/resources/studio202.properties" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/Utils.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaListAppByProductRequestBean.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/UtilityApp.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListAppByProductTestData.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaIsExistsTestData.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpConfig.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/AbstractServiceCaller.java" />
       </list>
     </option>
   </component>
@@ -197,185 +301,7 @@
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="dataProvider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="dataProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="dataProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="guns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
@@ -431,211 +357,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="implement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="appcaller" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="guns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="guns" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="sensebi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="sensebi" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="requestbean" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="responsebean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="responsebean" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="responsebean" type="462c0819:PsiDirectoryNode" />
-              <item name="guns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="responsebean" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-biz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -643,7 +388,7 @@
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -652,7 +397,7 @@
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -662,20 +407,121 @@
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="evictor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="swaggertool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="swaggertool" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="swaggertool" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -732,34 +578,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GunsScenarioTest.genAccountAndSetRoleTest">
-    <configuration name="PersonService.genPersonNameByCurrentTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eaf-biz" />
+  <component name="RunManager" selected="TestNG.UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest">
+    <configuration name="ToolEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edward.swaggertool.ToolEntry" />
+      <module name="eaf-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edward.service.*" />
+          <option name="PATTERN" value="com.edward.swaggertool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.edward.service" />
-      <option name="MAIN_CLASS_NAME" value="com.edward.service.PersonService" />
-      <option name="METHOD_NAME" value="genPersonNameByCurrentTime" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerService.sdsfsdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eaf-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edward.swaggertool.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edward.swaggertool.services" />
+      <option name="MAIN_CLASS_NAME" value="com.edward.swaggertool.services.SwaggerService" />
+      <option name="METHOD_NAME" value="sdsfsdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GunsScenarioTest.genAccountAndSetRoleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilityOtaIsExistsTest.testGeUtilityOtaIsExistsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eaf-api-test-case" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edward.scenario.*" />
+          <option name="PATTERN" value="com.edward.app.utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.edward.scenario" />
-      <option name="MAIN_CLASS_NAME" value="com.edward.scenario.GunsScenarioTest" />
-      <option name="METHOD_NAME" value="genAccountAndSetRoleTest" />
+      <option name="PACKAGE_NAME" value="com.edward.app.utility" />
+      <option name="MAIN_CLASS_NAME" value="com.edward.app.utility.UtilityOtaIsExistsTest" />
+      <option name="METHOD_NAME" value="testGeUtilityOtaIsExistsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -767,17 +626,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonGroupCreateTest.testGetPersonGroupCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eaf-api-test-case" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edward.app.person.*" />
+          <option name="PATTERN" value="com.edward.app.utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.edward.app.person" />
-      <option name="MAIN_CLASS_NAME" value="com.edward.app.person.PersonGroupCreateTest" />
-      <option name="METHOD_NAME" value="testGetPersonGroupCreateTest" />
+      <option name="PACKAGE_NAME" value="com.edward.app.utility" />
+      <option name="MAIN_CLASS_NAME" value="com.edward.app.utility.UtilityOtaListAppByProductTest" />
+      <option name="METHOD_NAME" value="testGetUtilityOtaListAppByProductTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -785,35 +644,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonMemberAddGroupMemberTest.testGetPersonMemberAddGroupMemberTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilityOtaListProductTest.testGetGunsMgrLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eaf-api-test-case" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edward.app.person.*" />
+          <option name="PATTERN" value="com.edward.app.utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.edward.app.person" />
-      <option name="MAIN_CLASS_NAME" value="com.edward.app.person.PersonMemberAddGroupMemberTest" />
-      <option name="METHOD_NAME" value="testGetPersonMemberAddGroupMemberTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonScenarioTest.genPersonAndAddPersonToGroups" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eaf-api-test-case" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edward.scenario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.edward.scenario" />
-      <option name="MAIN_CLASS_NAME" value="com.edward.scenario.PersonScenarioTest" />
-      <option name="METHOD_NAME" value="genPersonAndAddPersonToGroups" />
+      <option name="PACKAGE_NAME" value="com.edward.app.utility" />
+      <option name="MAIN_CLASS_NAME" value="com.edward.app.utility.UtilityOtaListProductTest" />
+      <option name="METHOD_NAME" value="testGetGunsMgrLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -823,11 +664,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GunsScenarioTest.genAccountAndSetRoleTest" />
-        <item itemvalue="TestNG.PersonMemberAddGroupMemberTest.testGetPersonMemberAddGroupMemberTest" />
-        <item itemvalue="TestNG.PersonGroupCreateTest.testGetPersonGroupCreateTest" />
-        <item itemvalue="TestNG.PersonScenarioTest.genPersonAndAddPersonToGroups" />
-        <item itemvalue="JUnit.PersonService.genPersonNameByCurrentTime" />
+        <item itemvalue="TestNG.UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" />
+        <item itemvalue="TestNG.UtilityOtaIsExistsTest.testGeUtilityOtaIsExistsTest" />
+        <item itemvalue="TestNG.UtilityOtaListProductTest.testGetGunsMgrLoginTest" />
+        <item itemvalue="Application.ToolEntry" />
+        <item itemvalue="JUnit.SwaggerService.sdsfsdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -902,7 +743,11 @@
       <workItem from="1591200734541" duration="624000" />
       <workItem from="1591201845129" duration="35000" />
       <workItem from="1591241508584" duration="4000" />
-      <workItem from="1591265380905" duration="1485000" />
+      <workItem from="1591265380905" duration="2298000" />
+      <workItem from="1591327968263" duration="9536000" />
+      <workItem from="1591667745952" duration="23772000" />
+      <workItem from="1591846984575" duration="1287000" />
+      <workItem from="1591855201619" duration="11880000" />
     </task>
     <task id="LOCAL-00001" summary="基本框架搭建">
       <created>1576462422977</created>
@@ -995,28 +840,56 @@
       <option name="project" value="LOCAL" />
       <updated>1591175083840</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1、添加case：创建组、将人加到组中&#10;2、优化：requetbean 使用lombok注解来get、set">
+      <created>1591267054423</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591267054423</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonGroupCreateTest_testGetPersonGroupCreateTest - 2020.06.04 at 11h 08m 41s.xml">
-      <configuration name="PersonGroupCreateTest.testGetPersonGroupCreateTest" configurationId="TestNG" />
+    <history-entry file="UtilityOtaListAppByProductTest_testGetUtilityOtaListAppByProductTest - 2020.06.11 at 18h 26m 58s.xml">
+      <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonMemberAddGroupMemberTest_testGetPersonMemberAddGroupMemberTest - 2020.06.04 at 18h 21m 10s.xml">
-      <configuration name="PersonMemberAddGroupMemberTest.testGetPersonMemberAddGroupMemberTest" configurationId="TestNG" />
+    <history-entry file="UtilityOtaListAppByProductTest_testGetUtilityOtaListAppByProductTest - 2020.06.11 at 18h 27m 51s.xml">
+      <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PersonMemberAddGroupMemberTest_testGetPersonMemberAddGroupMemberTest - 2020.06.04 at 18h 24m 01s.xml">
-      <configuration name="PersonMemberAddGroupMemberTest.testGetPersonMemberAddGroupMemberTest" configurationId="TestNG" />
+    <history-entry file="UtilityOtaListAppByProductTest_testGetUtilityOtaListAppByProductTest - 2020.06.11 at 18h 28m 28s.xml">
+      <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UtilityOtaListAppByProductTest_testGetUtilityOtaListAppByProductTest - 2020.06.11 at 18h 29m 27s.xml">
+      <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UtilityOtaListAppByProductTest_testGetUtilityOtaListAppByProductTest - 2020.06.11 at 18h 30m 07s.xml">
+      <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UtilityOtaListAppByProductTest_testGetUtilityOtaListAppByProductTest - 2020.06.11 at 18h 33m 39s.xml">
+      <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UtilityOtaListAppByProductTest_testGetUtilityOtaListAppByProductTest - 2020.06.11 at 18h 34m 39s.xml">
+      <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UtilityOtaListProductTest_testGetGunsMgrLoginTest - 2020.06.11 at 18h 35m 57s.xml">
+      <configuration name="UtilityOtaListProductTest.testGetGunsMgrLoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UtilityOtaListAppByProductTest_testGetUtilityOtaListAppByProductTest - 2020.06.11 at 18h 36m 13s.xml">
+      <configuration name="UtilityOtaListAppByProductTest.testGetUtilityOtaListAppByProductTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UtilityOtaIsExistsTest_testGeUtilityOtaIsExistsTest - 2020.06.11 at 18h 36m 28s.xml">
+      <configuration name="UtilityOtaIsExistsTest.testGeUtilityOtaIsExistsTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4413000" />
+    <option name="totallyTimeSpent" value="51701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-267" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30490404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3075693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1024,9 +897,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32739422" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5111359" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.62286687" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4621381" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54231626" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28285077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1034,7 +907,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.49488056" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32764506" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1046,6 +919,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1096,7 +970,8 @@
     <MESSAGE value="优化token及case" />
     <MESSAGE value="优化log4j.properties" />
     <MESSAGE value="1、完成scenario case 生成一个admin权限的用户&#10;2、优化测试框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、完成scenario case 生成一个admin权限的用户&#10;2、优化测试框架" />
+    <MESSAGE value="1、添加case：创建组、将人加到组中&#10;2、优化：requetbean 使用lombok注解来get、set" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、添加case：创建组、将人加到组中&#10;2、优化：requetbean 使用lombok注解来get、set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1112,6 +987,30 @@
           <line>17</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpClientUtil.java</url>
+          <line>421</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpClientUtil.java</url>
+          <line>426</line>
+          <properties />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1129,108 +1028,77 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>httpConfig.url();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>config.url();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>properties.defaultProp.ge</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>properties.defaultProp</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>properties.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new PropertiesUtil();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>List list = new ArrayList();
+paramsMap.forEach((k, v) -&gt; System.out.println(&quot;key:value = &quot; + k + &quot;:&quot; + v));
+map.entrySet().stream();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.List,java.util.ArrayList,java.util.stream.Collectors</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>paramsMap.forEach((k, v) -&gt; System.out.println(&quot;key:value = &quot; + k + &quot;:&quot; + v));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>paramsMap.toString().;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PersonService.java">
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PersonScenarioTest.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/GunsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonAddMemberToGroupsTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="23" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonAddMemberToGroupsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="38">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonCreateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonGroupCreateTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonGroupCreateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonCreateTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonMemberAddGroupMemberTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1239,7 +1107,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonMemberAddGroupMemberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="151">
           <caret line="25" column="83" lean-forward="true" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1247,212 +1115,410 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/PersonAppCaller.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonGroupCreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" column="51" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="51" />
+        <state relative-caret-position="95">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountAddRequestBean.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonGroupListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-108">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountSetRoleRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsMgrLoginRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsRoleTreeListByUserIdRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonAddMemberToGroupsRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonCreateRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonGroupCreateRequestBean.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonCreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="19" />
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonGroupListRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/person/bean/PersonMemberAddGroupMemberRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/sensebi/bean/IdentifyDataReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityFilesUploadImageRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/basic/PageRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/basic/BaseRes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/guns/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/guns/ZTreeNode.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityFilesUploadImageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="152">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityFilesUploadImageTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="78" lean-forward="true" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaListProductRequestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityFilesUploadImageRequestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/person/PersonGroupListRes.java">
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaIsExistsRequestBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/sensebi/bean/SensePassV2RecordRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/base/BasePageReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="11" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/PersonApp.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListProductTestData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <caret line="15" column="10" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaUpdatePackageRequestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaUpdatePackageTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="121" selection-start-line="11" selection-start-column="121" selection-end-line="11" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/ToolEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/client/config/RequestConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/client/methods/HttpPost.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/client/methods/HttpGet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/services/SwaggerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_251/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_251/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/implement/ServiceCallerImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_251/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/config/properties/EnvProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/resources/img/539091750513872709.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/exception/HttpProcessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/resources/studio202.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="454" selection-start-line="454" selection-end-line="454" />
+          <folding>
+            <element signature="e#13221#13236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/UtilityAppCaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/UtilityApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListAppByProductTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="206" column="40" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="208" column="28" selection-start-line="208" selection-start-column="22" selection-end-line="208" selection-end-column="28" />
+          <folding>
+            <element signature="e#4640#4641#0" expanded="true" />
+            <element signature="e#4697#4698#0" expanded="true" />
+            <element signature="e#7811#7812#0" expanded="true" />
+            <element signature="e#7840#7841#0" expanded="true" />
+            <element signature="e#7873#7874#0" expanded="true" />
+            <element signature="e#7903#7904#0" expanded="true" />
+            <element signature="e#7946#7947#0" expanded="true" />
+            <element signature="e#7988#7989#0" expanded="true" />
+            <element signature="e#8015#8016#0" expanded="true" />
+            <element signature="e#8048#8049#0" expanded="true" />
+            <element signature="e#8083#8084#0" expanded="true" />
+            <element signature="e#8112#8113#0" expanded="true" />
+            <element signature="e#8193#8194#0" expanded="true" />
+            <element signature="e#8226#8227#0" expanded="true" />
+            <element signature="e#8262#8263#0" expanded="true" />
+            <element signature="e#8292#8293#0" expanded="true" />
+            <element signature="e#8409#8410#0" expanded="true" />
+            <element signature="e#8436#8437#0" expanded="true" />
+            <element signature="e#8468#8469#0" expanded="true" />
+            <element signature="e#8499#8500#0" expanded="true" />
+            <element signature="e#8528#8529#0" expanded="true" />
+            <element signature="e#8583#8584#0" expanded="true" />
+            <element signature="e#8613#8614#0" expanded="true" />
+            <element signature="e#8670#8671#0" expanded="true" />
+            <element signature="e#8703#8704#0" expanded="true" />
+            <element signature="e#8736#8737#0" expanded="true" />
+            <element signature="e#8780#8781#0" expanded="true" />
+            <element signature="e#8816#8817#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/AbstractServiceCaller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="532">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/GunsScenarioTest.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaUpdatePackageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="380">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/utility/bean/UtilityOtaListAppByProductRequestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaIsExistsTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaIsExistsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListAppByProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

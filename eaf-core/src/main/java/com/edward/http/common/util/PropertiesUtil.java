@@ -27,8 +27,8 @@ public class PropertiesUtil {
     // 初始化默认的属性集合
     static {
         if (defaultProp == null) {
-            defaultProp = loadProperties("config.properties");
-            allProps.put("config.properties", defaultProp);
+            defaultProp = loadProperties("studio202.properties");
+            allProps.put("studio202.properties", defaultProp);
         }
     }
 
