@@ -16,6 +16,7 @@ import com.google.gson.reflect.TypeToken;
 import java.io.*;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -36,6 +37,10 @@ public class SwaggerService {
         this.address = address;
     }
 
+    /**
+     * 获取所有服务
+     * @return
+     */
     public List<SwaggerProjectModel> getAllProjects() {
         List<SwaggerProjectModel> projects = new ArrayList<>();
         String httpResponse = doGetBySwaggerResources(GET_SWAGGER_RESOURCES);
@@ -44,6 +49,11 @@ public class SwaggerService {
         return swaggerProjectModels;
     }
 
+    /**
+     * 通过每个服务获取每个服务对应的apiList和对应的请求体list
+     * @param projectModelList
+     * @return
+     */
     public List<SwaggerApiModleForApp> getAllSwaggerProjectBean(List<SwaggerProjectModel> projectModelList) {
         List<SwaggerApiModleForApp> swaggerApiModleForApps = new ArrayList<>();
         //遍历每个project
@@ -95,7 +105,6 @@ public class SwaggerService {
                 apiModle.setUrl(requestTypeModel.getUrl());
                 apiModle.setRequestType(requestTypeModel.getRequeType());
                 apiModle.setSwaggerProjectModelPathBean(swaggerProjectModelPathBean);
-
                 apiModles.add(apiModle);
 
             }
@@ -113,21 +122,32 @@ public class SwaggerService {
         return swaggerApiModleForApps;
     }
 
-    //更具SwaggerApiModleForApp向指定目录中写入文件
+    //
+
+    /**
+     * 遍历通过swaggerApiModleForApps，SwaggerApiModleForApp向指定目录中写入文件
+     * @param swaggerApiModleForApps
+     */
     public void writeFileBySwaggerApiModleForApps(List<SwaggerApiModleForApp> swaggerApiModleForApps) {
         for(int i=0;i<swaggerApiModleForApps.size();i++){
-            genRequestBeanFile(swaggerApiModleForApps.get(i));
+            genFile(swaggerApiModleForApps.get(i));
         }
 
     }
 
 
-    //向指定文件目录写入 xxxRequestBean.java
-    public void genRequestBeanFile(SwaggerApiModleForApp swaggerApiModleForApp) {
+    //
 
-        /**
-         * 1、生成requesBean
-         */
+    /**
+     *  向指定目录写入文件
+     *  1、向指定文件目录写入 xxxRequestBean.java
+     *  2、根据apiModel 生成追加app内容并返回httpApiName
+     *  3、根据apiModel 和生成的requestBean 生成or追加appcaller内容
+     * @param swaggerApiModleForApp
+     */
+    public void genFile(SwaggerApiModleForApp swaggerApiModleForApp) {
+
+        //1、生成requesBean
         String requestBeanFileLocalPath = "\\eaf-app\\src\\main\\java\\com\\edward\\requestbean";
         String packageName = swaggerApiModleForApp.getAppName();
         Object definitionsObj = swaggerApiModleForApp.getDefinitions();
@@ -174,9 +194,6 @@ public class SwaggerService {
                                 case "int":
                                     parametersContent += "\tprivate Integer " + parameterName + ";\n";
                                     break;
-                                default:
-                                    parametersContent += "\tprivate String " + parameterName + ";\n";
-                                    break;
                             }
                         }
                     } else if (parameterSchema.containsKey("$ref")) { //参数需要通过路径映射来获取（通过key从definitions中获取）
@@ -196,21 +213,19 @@ public class SwaggerService {
                                 case "int":
                                     parametersContent += "\tprivate Integer " + name + ";\n";
                                     break;
-                                default:
-                                    parametersContent += "\tprivate String " + name + ";\n";
-                                    break;
                             }
 
                         }
 
-
                     }
+
                 }
 
             }
 
+            //RequestBean Head Content
             String content =
-                    "package com.edward.requestbean." + packageName + ".bean;\n" +
+                            "package com.edward.requestbean." + packageName + ".bean;\n" +
                             "\n" +
                             "import lombok.AllArgsConstructor;\n" +
                             "import lombok.Builder;\n" +
@@ -236,14 +251,18 @@ public class SwaggerService {
                 e.printStackTrace();
             }
 
-
-
         }
 
     }
 
-    //向指定文件目录写入 xxxApp.java
-    public String genAppFile(String packageName,String path,String requestType) {
+    /**
+     * 2、向指定文件目录写入 xxxApp.java
+     * @param packageName
+     * @param path
+     * @param requestType
+     * @return
+     */
+    public String genAppFile(String packageName,String path,String requestType) throws IOException {
         String appFileLocalPath = "\\eaf-app\\src\\main\\java\\com\\edward\\app\\";
         String appFilePath = currentProjectRootPath + appFileLocalPath;
         String appName = StringUtil.changeaToA(packageName) + "App";
@@ -259,7 +278,8 @@ public class SwaggerService {
                 httpMethod = "HttpMethod.GET";
         }
         String httpApiValue = "new HttpApi(" + pathName + "," + httpMethod + ")";
-        String appFileContent = "package com.edward.app;\n" +
+        String appFileContent =
+                "package com.edward.app;\n" +
                 "\n" +
                 "import com.edward.http.HttpApi;\n" +
                 "import com.edward.http.HttpMethod;\n" +
@@ -270,45 +290,53 @@ public class SwaggerService {
                 "\n";
 
         String content =
-                "private static final String " + pathName + " = " + "\"" + path + "\"" + ";\n" +
+                        "private static final String " + pathName + " = " + "\"" + path + "\"" + ";\n" +
                         "public static final HttpApi " + httpApiName + " = " + httpApiValue + ";\n" +
                         "\n";
 
-        try {
-            createFile(appFilePath, appFileName, appFileContent, content);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        createFile(appFilePath, appFileName, appFileContent, content);
+        System.out.println("生成app： " + appName);
 
         return httpApiName;
     }
 
-    //向指定文件目录写入 xxxAppcaller.java
-    public String genAppcallerFile(String url,String packageName,String requestBeanName,String httpApiName) throws IOException {
-        String appcallerFileLocalPath = "\\eaf-app\\src\\main\\java\\com\\edward\\appcaller\\";
-        String appcallerPath = currentProjectRootPath + appcallerFileLocalPath;
-        String appcallerPackageName = packageName;
-        String appcallerName = StringUtil.changeaToA(appcallerPackageName) + "AppCaller";
-        String appcallerFileName = appcallerName + ".java";
-        String appcallerFileContent = "package com.edward.appcaller;\n" +
-                "\n" +
-                "import com.edward.app.AbstractServiceCaller;\n" +
-                "import com.edward.http.HttpApi;\n" +
-                "import com.edward.requestbean."+appcallerPackageName+".bean.*;\n" +
-                "import static com.edward.app."+StringUtil.changeaToA(appcallerPackageName) + "App"+".*;\n" +
-                "\n" +
-                "public class " + appcallerName + " extends AbstractServiceCaller {\n" +
-                "\n" +
-                "}\n";
-        String content =
-                "\tpublic String get"+StringUtil.changeaToAFromString(url)+"("+requestBeanName+" requestBean){\n" +
-                "\t\treturn this.get"+StringUtil.changeaToAFromString(url)+"("+httpApiName+",requestBean);\n" +
-                "\t}\n" +
-                "\tprivate String get"+StringUtil.changeaToAFromString(url)+"(HttpApi "+httpApiName+", "+requestBeanName+" requestBean){\n" +
-                "\t\treturn doPost("+httpApiName+",requestBean);\n" +
-                "\t}\n";
-        createFile(appcallerPath, appcallerFileName,appcallerFileContent, content);
-        return "";
+    //
+
+    /**
+     * 3、向指定文件目录写入 xxxAppcaller.java
+     * @param url
+     * @param packageName
+     * @param requestBeanName
+     * @param httpApiName
+     * @return
+     * @throws IOException
+     */
+    public void genAppcallerFile(String url,String packageName,String requestBeanName,String httpApiName) throws IOException {
+            String appcallerFileLocalPath = "\\eaf-app\\src\\main\\java\\com\\edward\\appcaller\\";
+            String appcallerPath = currentProjectRootPath + appcallerFileLocalPath;
+            String appcallerPackageName = packageName;
+            String appcallerName = StringUtil.changeaToA(appcallerPackageName) + "AppCaller";
+            String appcallerFileName = appcallerName + ".java";
+            String appcallerFileContent =
+                    "package com.edward.appcaller;\n" +
+                            "\n" +
+                            "import com.edward.app.AbstractServiceCaller;\n" +
+                            "import com.edward.http.HttpApi;\n" +
+                            "import com.edward.requestbean."+appcallerPackageName+".bean.*;\n" +
+                            "import static com.edward.app."+StringUtil.changeaToA(appcallerPackageName) + "App"+".*;\n" +
+                            "\n" +
+                            "public class " + appcallerName + " extends AbstractServiceCaller {\n" +
+                            "\n" +
+                            "}\n";
+            String content =
+                    "\tpublic String get"+StringUtil.changeaToAFromString(url)+"("+requestBeanName+" requestBean){\n" +
+                            "\t\treturn this.get"+StringUtil.changeaToAFromString(url)+"("+httpApiName+",requestBean);\n" +
+                            "\t}\n" +
+                            "\tprivate String get"+StringUtil.changeaToAFromString(url)+"(HttpApi "+httpApiName+", "+requestBeanName+" requestBean){\n" +
+                            "\t\treturn doPost("+httpApiName+",requestBean);\n" +
+                            "\t}\n";
+            createFile(appcallerPath, appcallerFileName,appcallerFileContent, content);
+            System.out.println("生成appcaller： " + appcallerName);
     }
 
 
@@ -348,6 +376,13 @@ public class SwaggerService {
         }
     }
 
+    /**
+     *  在指定路径下创建文件
+     * @param filePath 文件路径
+     * @param fileName 文件名称
+     * @param appFileContent 文件内容
+     * @throws IOException
+     */
     public void createFile(String filePath, String fileName, String appFileContent) throws IOException {
         File dir = new File(filePath);
         // 一、检查放置文件的文件夹路径是否存在，不存在则创建
@@ -373,7 +408,12 @@ public class SwaggerService {
         }
     }
 
-    //通过httpclient发送get请求
+
+    /**
+     * 通过httpclient发送get请求
+     * @param httpApi swagger api
+     * @return
+     */
     public String doGetBySwaggerResources(HttpApi httpApi) {
         HttpHeader header = HttpHeader.custom();
         HttpConfig httpConfig = HttpConfig.custom();

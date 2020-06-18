@@ -25,7 +25,7 @@ public class AbstractServiceCaller{
 
 
     public static String host = "http://studio202/";
-    public static String token = "Basic d2FuZ2NoZW5nLDA6ajMydjhi";
+    public static String token = null;
 
 
 
