@@ -1,5 +1,6 @@
 package com.edward.swaggertool.models;
 
+import com.google.gson.internal.LinkedTreeMap;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,6 +18,7 @@ import java.util.List;
 @AllArgsConstructor
 public class SwaggerApiModleForApp {
     private String appName;
+    private Object definitions;
     private List<ApiModle> apiModles;
 
 }

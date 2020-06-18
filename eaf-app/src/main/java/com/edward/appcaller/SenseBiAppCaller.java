@@ -1,12 +1,9 @@
 package com.edward.appcaller;
 
-
 import com.edward.app.AbstractServiceCaller;
 import com.edward.http.HttpApi;
-import com.edward.requestbean.sensebi.bean.SensePassV2RecordRequestBean;
-import com.edward.requestbean.utility.bean.UtilityFilesUploadImageRequestBean;
-
-import static com.edward.app.SenseBiApp.POST_SENSEPASS_v2_record;
+import com.edward.requestbean.sensebi.bean.*;
+import static com.edward.app.SenseBiApp.*;
 
 /**
  * @author wangcheng
