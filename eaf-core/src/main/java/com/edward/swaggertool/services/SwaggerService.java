@@ -130,8 +130,10 @@ public class SwaggerService {
      */
     public void writeFileBySwaggerApiModleForApps(List<SwaggerApiModleForApp> swaggerApiModleForApps) {
         for(int i=0;i<swaggerApiModleForApps.size();i++){
+            System.out.println("=====================开始生成文件：" + swaggerApiModleForApps.get(i) + "=========== i =" + i);
             genFile(swaggerApiModleForApps.get(i));
         }
+        genFile(swaggerApiModleForApps.get(8));
 
     }
 
@@ -180,13 +182,13 @@ public class SwaggerService {
                 String reqParaBodyKey = null;
 
                 //Header参数
-                if (parameterType != null && parameterSchema == null) {
+                if (parameterIn.equals("header")) {
                     parametersContent += "\tprivate String " + parameterName + "; //Header参数\n";
                 } else {
                     //参数不需要通过路径映射来获取（直接再parameter中）
                     if (parameterSchema.containsKey("type")) {
                         //如果不是header参数就放到bean中
-                        if (!parameterIn.equalsIgnoreCase("header")) {
+                        if (!parameterIn.equals("header")) {
                             switch (parameterSchema.get("type")) {
                                 case "string":
                                     parametersContent += "\tprivate String " + parameterName + ";\n";
@@ -206,13 +208,20 @@ public class SwaggerService {
                         for (Map.Entry<String, LinkedTreeMap<String, String>> entry : properties.entrySet()) {
                             String name = entry.getKey();
                             String type = entry.getValue().get("type");
-                            switch (type) {
-                                case "string":
-                                    parametersContent += "\tprivate String " + name + ";\n";
-                                    break;
-                                case "int":
-                                    parametersContent += "\tprivate Integer " + name + ";\n";
-                                    break;
+                            String ref = entry.getValue().get("$ref");
+                            if(type == null && ref != null){
+                                parametersContent += "\tprivate String " + name + "; //需要特殊处理的参数\n";
+                            }else {
+                                switch (type) {
+                                    case "string":
+                                        parametersContent += "\tprivate String " + name + ";\n";
+                                        break;
+                                    case "integer":
+                                        parametersContent += "\tprivate Integer " + name + ";\n";
+                                        break;
+                                    default:
+                                        parametersContent += "\tprivate String " + name + "; //默认给出String\n";
+                                }
                             }
 
                         }
