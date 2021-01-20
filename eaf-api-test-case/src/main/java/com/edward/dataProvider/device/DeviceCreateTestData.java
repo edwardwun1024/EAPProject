@@ -16,6 +16,7 @@ public class DeviceCreateTestData {
         String deviceType = "21";
         String productType = "16";
         String deviceUri = "rtsp://admin:Sense123789456@10.151.23.98:554";
+        String deviceIp = "10.151.23.98";
         String deviceVersion = "v88";
         Integer faceAttribute = 1;
         Integer livenessCheck = 1;
@@ -34,6 +35,7 @@ public class DeviceCreateTestData {
         deviceCreateRequestBean.setLivenessCheck(livenessCheck);
         deviceCreateRequestBean.setOperatePerson(operatePerson);
         deviceCreateRequestBean.setBkImageStorage(bkImageStorage);
+        deviceCreateRequestBean.setDeviceIP(deviceIp);
 
         return new Object[][]{
                 {"添加创建设备（genie-区域结构）",deviceCreateRequestBean, EnumCode.BASE_SUCCESS}

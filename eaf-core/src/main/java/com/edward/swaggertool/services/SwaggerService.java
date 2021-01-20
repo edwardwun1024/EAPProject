@@ -51,15 +51,18 @@ public class SwaggerService {
 
     /**
      * 通过每个服务获取每个服务对应的apiList和对应的请求体list
-     * @param projectModelList
+     * @param swaggerProjectModelList
      * @return
      */
-    public List<SwaggerApiModleForApp> getAllSwaggerProjectBean(List<SwaggerProjectModel> projectModelList) {
+    public List<SwaggerApiModleForApp> getAllSwaggerProjectBean(List<SwaggerProjectModel> swaggerProjectModelList) {
         List<SwaggerApiModleForApp> swaggerApiModleForApps = new ArrayList<>();
         //遍历每个project
-        for (SwaggerProjectModel swaggerProjectModel : projectModelList) {
+        for (SwaggerProjectModel swaggerProjectModel : swaggerProjectModelList) {
             String response = doGetBySwaggerResources(new HttpApi(swaggerProjectModel.url, HttpMethod.GET));
             SwaggerProjectBean swaggerProjectBean = new Gson().fromJson(response, SwaggerProjectBean.class);
+
+            //获取definitions 方便后面查parameter
+            //todo
 
             //遍历每一个path
             ArrayList<PathModel> pathModels = new ArrayList<>();
@@ -89,6 +92,12 @@ public class SwaggerService {
             List<ApiModle> apiModles = new ArrayList<>();
             //封装成SwaggerProjectModelPathBean
             for (RequestTypeModel requestTypeModel : requestTypeModelList) {
+                //判断
+
+
+                //todo:判断patameter是否走definition
+                //1:
+
                 SwaggerProjectModelPathBean swaggerProjectModelPathBean = new SwaggerProjectModelPathBean();
                 swaggerProjectModelPathBean.setTags((ArrayList<String>) requestTypeModel.getRequestTypeValue().get("tags"));
                 swaggerProjectModelPathBean.setSummary((String) requestTypeModel.getRequestTypeValue().get("summary"));
@@ -129,11 +138,11 @@ public class SwaggerService {
      * @param swaggerApiModleForApps
      */
     public void writeFileBySwaggerApiModleForApps(List<SwaggerApiModleForApp> swaggerApiModleForApps) {
-        for(int i=0;i<swaggerApiModleForApps.size();i++){
-            System.out.println("=====================开始生成文件：" + swaggerApiModleForApps.get(i) + "=========== i =" + i);
-            genFile(swaggerApiModleForApps.get(i));
-        }
-        genFile(swaggerApiModleForApps.get(8));
+//        for(int i=0;i<swaggerApiModleForApps.size();i++){
+//            System.out.println("=====================开始生成文件：" + swaggerApiModleForApps.get(i) + "=========== i =" + i);
+//            genFile(swaggerApiModleForApps.get(i));
+//        }
+//        genFile(swaggerApiModleForApps.get(1));
 
     }
 

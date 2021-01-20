@@ -1,6 +1,5 @@
 package com.edward.appcaller;
 
-import com.edward.app.AbstractServiceCaller;
 import com.edward.http.HttpApi;
 import com.edward.requestbean.sensebi.bean.*;
 import static com.edward.app.SenseBiApp.*;

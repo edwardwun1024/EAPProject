@@ -1,5 +1,6 @@
 package com.edward.swaggertool.models;
 
+import com.edward.swaggertool.models.definitionsModel.RequestTypeValueModel;
 import com.google.gson.internal.LinkedTreeMap;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,4 +19,5 @@ public class RequestTypeModel {
     private String url;
     private String requeType;
     private LinkedTreeMap<String,Object> requestTypeValue;
+    // private RequestTypeValueModel requestTypeValueModel;
 }

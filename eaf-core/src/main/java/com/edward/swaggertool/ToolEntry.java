@@ -25,7 +25,7 @@ public class ToolEntry {
         //获取所有app的api
         List<SwaggerApiModleForApp> swaggerApiModleForApps = swaggerService.getAllSwaggerProjectBean(projectModelList);
         //写文件
-        swaggerService.writeFileBySwaggerApiModleForApps(swaggerApiModleForApps);
+//        swaggerService.writeFileBySwaggerApiModleForApps(swaggerApiModleForApps);
         System.out.println(swaggerApiModleForApps.toString());
 
     }

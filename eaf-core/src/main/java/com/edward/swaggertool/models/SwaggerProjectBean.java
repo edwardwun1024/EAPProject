@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -17,7 +18,7 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SwaggerProjectBean {
+public class SwaggerProjectBean<T> implements Serializable {
     private String swagger;
     private Object info;
     private String host;
@@ -28,6 +29,7 @@ public class SwaggerProjectBean {
     private List<Object> produces;
     private LinkedTreeMap<String,LinkedTreeMap> paths;
     private Object securityDefinitions;
-    private Object definitions;
+//    private Object definitions;
+    private T definitions;
 
 }

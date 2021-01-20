@@ -1,4 +1,4 @@
-package com.edward.app;
+package com.edward.appcaller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.edward.common.CommonUtils;
@@ -25,7 +25,7 @@ public class AbstractServiceCaller{
 
 
     public static String host = "http://studio202/";
-    public static String token = null;
+    public static String token = "";
 
 
 

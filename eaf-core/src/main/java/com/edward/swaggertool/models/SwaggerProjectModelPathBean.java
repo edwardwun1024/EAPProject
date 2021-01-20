@@ -17,11 +17,11 @@ import java.util.ArrayList;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SwaggerProjectModelPathBean {
-    private ArrayList<String> tags;
-    private String summary;
+    private ArrayList<String> tags;   //batch-import-task-controller
+    private String summary;           //删除批量导入task
     private String operationId;
     private ArrayList<String> schemes;
-    private ArrayList<String> consumes;
+    private ArrayList<String> consumes;  //application/json
     private ArrayList<String> produces;
     private ArrayList<LinkedTreeMap> parameters;
     private LinkedTreeMap<String,LinkedTreeMap<String, LinkedTreeMap>> responses;

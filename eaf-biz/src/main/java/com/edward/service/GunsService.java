@@ -2,6 +2,7 @@ package com.edward.service;
 
 import com.edward.appcaller.GunsAppCaller;
 import com.edward.common.AES256Utils;
+import com.edward.common.EnumCode;
 import com.edward.requestbean.guns.bean.*;
 import com.edward.responsebean.basic.BaseRes;
 import com.edward.responsebean.basic.PageRes;
@@ -10,6 +11,7 @@ import com.edward.responsebean.guns.ZTreeNode;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +21,24 @@ import java.util.List;
  * @date 2020/5/12 15:14
  */
 public class GunsService extends BaseService{
+
+    public void loginStudioByAccount(String name,String decPwd){
+        //1、登陆admin账户，获取token
+        String accountType = "0";
+        String encPwd = null;
+        try {
+            encPwd = AES256Utils.encrypt(decPwd.getBytes());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        GunsMgrLoginRequestBean gunsMgrLoginRequestBean = new GunsMgrLoginRequestBean();
+        gunsMgrLoginRequestBean.setUsername(name);
+        gunsMgrLoginRequestBean.setPassword(encPwd);
+        gunsMgrLoginRequestBean.setAccountType(accountType);
+        String gunsMrgLoginResponse = gunsAppCaller.getGunsMgrLogin(gunsMgrLoginRequestBean);
+        BaseRes loginResponse = gson.fromJson(gunsMrgLoginResponse, BaseRes.class);
+        Assert.assertEquals(loginResponse.getCode(), EnumCode.BASE_SUCCESS.getCode());
+    }
 
     /**
      * 在top部门下创建一个角色为admin的用户
