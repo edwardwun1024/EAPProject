@@ -12,26 +12,27 @@ import org.testng.annotations.Test;
 
 /**
  * 功能：上传图片
+ *
  * @author wangcheng
  * @date 2020/5/27 15:33
  */
 public class UtilityFilesUploadImageTest extends BaseApiTest {
 
     @DataProvider(name = "dataPrdGetUtilityFilesUploadImageTest")
-    public Object[][] getDataProviderGetGunsMgrLoginDataProvider( ){
+    public Object[][] getDataProviderGetGunsMgrLoginDataProvider() {
         UtilityFilesUploadImageTestData utilityFilesUploadImageTestData = new UtilityFilesUploadImageTestData();
         return utilityFilesUploadImageTestData.genUtilityFilesUploadImageTestData();
     }
 
 
     @Test(dataProvider = "dataPrdGetUtilityFilesUploadImageTest")
-    public void testGetGunsMgrLoginTest(String caseName, UtilityFilesUploadImageRequestBean utilityFilesUploadImageRequestBean, EnumCode enumCode){
+    public void testGetGunsMgrLoginTest(String caseName, UtilityFilesUploadImageRequestBean utilityFilesUploadImageRequestBean, EnumCode enumCode) {
 
-        logger.info("--------------"+caseName+" start--------------");
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new UtilityAppCaller().getUtilityFilesUploadImage(utilityFilesUploadImageRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
-        Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
-        Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        Assert.assertEquals(loginResponse.getCode(), enumCode.getCode());
+        Assert.assertEquals(loginResponse.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

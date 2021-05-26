@@ -8,21 +8,18 @@ import com.edward.responsebean.basic.BaseRes;
 import com.edward.responsebean.basic.PageRes;
 import com.edward.responsebean.guns.UserDto;
 import com.edward.responsebean.guns.ZTreeNode;
-import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import org.apache.log4j.Logger;
-import org.junit.Assert;
+import org.testng.Assert;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author wangcheng
  * @date 2020/5/12 15:14
  */
-public class GunsService extends BaseService{
+public class GunsService extends BaseService {
 
-    public void loginStudioByAccount(String name,String decPwd){
+    public void loginStudioByAccount(String name, String decPwd) {
         //1、登陆admin账户，获取token
         String accountType = "0";
         String encPwd = null;
@@ -46,7 +43,7 @@ public class GunsService extends BaseService{
      * 2、创建account
      * 3、设置角色
      */
-    public String genAccountWithAdminRole(){
+    public String genAccountWithAdminRole() {
 
         //1、登陆admin账户，获取token
         String name = "admin";
@@ -86,18 +83,19 @@ public class GunsService extends BaseService{
         gunsAccountAddRequestBean.setPhone(phone);
         gunsAccountAddRequestBean.setCreateUser(createUser);
         gunsAccountAddRequestBean.setAccountType(addAccountType);
-        String  gunsAccountAddResponse=gunsAppCaller.getGunsAccountAdd(gunsAccountAddRequestBean);
+        String gunsAccountAddResponse = gunsAppCaller.getGunsAccountAdd(gunsAccountAddRequestBean);
 
         //3、获取用户所有角色权限
         Integer userId = 1;
         GunsRoleTreeListByUserIdRequestBean gunsRoleTreeListByUserIdRequestBean = new GunsRoleTreeListByUserIdRequestBean();
         gunsRoleTreeListByUserIdRequestBean.setUserId(userId);
         String gunsRoleTreeListByUserIdResponseString = new GunsAppCaller().getGunsRoleTreeListByUserId(gunsRoleTreeListByUserIdRequestBean);
-        BaseRes<ArrayList<ZTreeNode>> baseRes = gson.fromJson(gunsRoleTreeListByUserIdResponseString,new TypeToken<BaseRes<ArrayList<ZTreeNode>>>(){}.getType());
+        BaseRes<ArrayList<ZTreeNode>> baseRes = gson.fromJson(gunsRoleTreeListByUserIdResponseString, new TypeToken<BaseRes<ArrayList<ZTreeNode>>>() {
+        }.getType());
         ZTreeNode adminRole = null;
-        for(int i=0;i<baseRes.getData().size();i++ ){
+        for (int i = 0; i < baseRes.getData().size(); i++) {
             //边离roles列表，获取admin角色
-            if(baseRes.getData().get(i).getId() == 1){
+            if (baseRes.getData().get(i).getId() == 1) {
                 adminRole = baseRes.getData().get(i);
                 break;
 
@@ -114,11 +112,12 @@ public class GunsService extends BaseService{
         gunsAccountListRequestBean.setCurrent(count);
         gunsAccountListRequestBean.setSize(pageSise);
         String responseString = new GunsAppCaller().getGunsAccountList(gunsAccountListRequestBean);
-        PageRes<ArrayList<UserDto>> pageRes = gson.fromJson(responseString, new TypeToken<PageRes<ArrayList<UserDto>>>(){}.getType());
+        PageRes<ArrayList<UserDto>> pageRes = gson.fromJson(responseString, new TypeToken<PageRes<ArrayList<UserDto>>>() {
+        }.getType());
         UserDto userDto = null;
-        for(int i=0;i<pageRes.getData().size();i++ ){
+        for (int i = 0; i < pageRes.getData().size(); i++) {
             //遍历account列表，获取对应的account
-            if(pageRes.getData().get(i).getName().equals(addAccount)){
+            if (pageRes.getData().get(i).getName().equals(addAccount)) {
                 userDto = pageRes.getData().get(i);
                 break;
 
@@ -136,10 +135,10 @@ public class GunsService extends BaseService{
         return "";
     }
 
-    public String getEncPwd(String decPwd){
+    public String getEncPwd(String decPwd) {
         String encPwd = null;
         try {
-            encPwd= AES256Utils.encrypt(decPwd.getBytes());
+            encPwd = AES256Utils.encrypt(decPwd.getBytes());
         } catch (Exception e) {
             e.printStackTrace();
         }

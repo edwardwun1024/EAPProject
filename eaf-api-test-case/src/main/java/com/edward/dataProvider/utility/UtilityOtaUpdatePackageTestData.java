@@ -12,7 +12,7 @@ public class UtilityOtaUpdatePackageTestData {
         UtilityOtaUpdatePackageRequestBean utilityOtaUpdatePackageRequestBean = new UtilityOtaUpdatePackageRequestBean();
 
         return new Object[][]{
-                {"更新包版本信息",utilityOtaUpdatePackageRequestBean, EnumCode.BASE_SUCCESS}
+                {"更新包版本信息", utilityOtaUpdatePackageRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

@@ -1,7 +1,6 @@
 package com.edward.app.policymonitor;
 
 import com.edward.Base.BaseApiTest;
-import com.edward.appcaller.DeviceAppCaller;
 import com.edward.appcaller.PolicyMonitorAppCaller;
 import com.edward.common.EnumCode;
 import com.edward.dataProvider.policymonitor.FilteringRuleMonitorCreateTestData;
@@ -17,20 +16,20 @@ import org.testng.annotations.Test;
  */
 public class FilteringRuleMonitorCreateTest extends BaseApiTest {
     @DataProvider(name = "dataPrdGetFilteringRuleMonitorCreateTest")
-    public Object[][] getDataProviderGetFilteringRuleMonitorCreateDataProvider( ){
+    public Object[][] getDataProviderGetFilteringRuleMonitorCreateDataProvider() {
         FilteringRuleMonitorCreateTestData filteringRuleMonitorCreateTestData = new FilteringRuleMonitorCreateTestData();
         return filteringRuleMonitorCreateTestData.genFilteringRuleMonitorCreateTestData();
     }
 
 
     @Test(dataProvider = "dataPrdGetFilteringRuleMonitorCreateTest")
-    public void testGetFilteringRuleMonitorCreateTest(String caseName, FilteringRuleMonitorCreateRequestBean filteringRuleMonitorCreateRequestBean, EnumCode enumCode){
+    public void testGetFilteringRuleMonitorCreateTest(String caseName, FilteringRuleMonitorCreateRequestBean filteringRuleMonitorCreateRequestBean, EnumCode enumCode) {
 
-        logger.info("--------------"+caseName+" start--------------");
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new PolicyMonitorAppCaller().getFilteringRuleMonitorCreate(filteringRuleMonitorCreateRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
-        Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
-        Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        Assert.assertEquals(loginResponse.getCode(), enumCode.getCode());
+        Assert.assertEquals(loginResponse.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

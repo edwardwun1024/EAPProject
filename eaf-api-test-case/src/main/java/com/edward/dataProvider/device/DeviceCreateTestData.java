@@ -8,7 +8,7 @@ import com.edward.requestbean.device.bean.DeviceCreateRequestBean;
  * @date 2021/1/20 11:22
  */
 public class DeviceCreateTestData {
-    public Object[][] genDeviceCreateTestData(){
+    public Object[][] genDeviceCreateTestData() {
 
         String deviceCnName = "wc-region-98";
         String deviceSerial = "id-wc-region-98";
@@ -38,7 +38,7 @@ public class DeviceCreateTestData {
         deviceCreateRequestBean.setDeviceIP(deviceIp);
 
         return new Object[][]{
-                {"添加创建设备（genie-区域结构）",deviceCreateRequestBean, EnumCode.BASE_SUCCESS}
+                {"添加创建设备（genie-区域结构）", deviceCreateRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

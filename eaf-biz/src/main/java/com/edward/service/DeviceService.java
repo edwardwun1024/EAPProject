@@ -4,7 +4,7 @@ import com.edward.appcaller.DeviceAppCaller;
 import com.edward.common.EnumCode;
 import com.edward.requestbean.device.bean.DeviceCreateRequestBean;
 import com.edward.responsebean.basic.BaseRes;
-import org.junit.Assert;
+import org.testng.Assert;
 
 /**
  * @author wangcheng

@@ -1,7 +1,5 @@
 package com.edward.requestbean.guns.bean;
 
-import com.edward.requestbean.base.BasePageReq;
-import com.sun.istack.internal.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,8 +18,6 @@ public class GunsAccountListRequestBean{
     private String name;
     private String beginTime;
     private String endTime;
-    @NotNull
     public Integer current;
-    @NotNull
     public Integer size;
 }

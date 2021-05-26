@@ -16,20 +16,20 @@ import org.testng.annotations.Test;
  */
 public class UtilityOtaIsExistsTest extends BaseApiTest {
     @DataProvider(name = "dataPrdGetUtilityOtaIsExistsTest")
-    public Object[][] getDataProviderGetUtilityOtaIsExistsDataProvider( ){
+    public Object[][] getDataProviderGetUtilityOtaIsExistsDataProvider() {
         UtilityOtaIsExistsTestData utilityOtaIsExistsTestData = new UtilityOtaIsExistsTestData();
         return utilityOtaIsExistsTestData.genUtilityOtaIsExistsTestData();
     }
 
 
     @Test(dataProvider = "dataPrdGetUtilityOtaIsExistsTest")
-    public void testGeUtilityOtaIsExistsTest(String caseName, UtilityOtaIsExistsRequestBean utilityOtaIsExistsRequestBean, EnumCode enumCode){
+    public void testGeUtilityOtaIsExistsTest(String caseName, UtilityOtaIsExistsRequestBean utilityOtaIsExistsRequestBean, EnumCode enumCode) {
 
-        logger.info("--------------"+caseName+" start--------------");
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new UtilityAppCaller().getUtilityOtaIsExists(utilityOtaIsExistsRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
-        Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
-        Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        Assert.assertEquals(loginResponse.getCode(), enumCode.getCode());
+        Assert.assertEquals(loginResponse.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

@@ -14,21 +14,21 @@ import org.testng.annotations.Test;
  * @author wangcheng
  * @date 2020/6/4 10:56
  */
-public class PersonGroupCreateTest  extends BaseApiTest {
+public class PersonGroupCreateTest extends BaseApiTest {
     @DataProvider(name = "getPersonGroupCreateDataProvider")
-    public Object[][] getDataProviderPersonGroupCreateDataProvider( ){
+    public Object[][] getDataProviderPersonGroupCreateDataProvider() {
         PersonGroupCreateTestData personGroupCreateTestData = new PersonGroupCreateTestData();
         return personGroupCreateTestData.genPersonGroupCreateTestData();
     }
 
 
     @Test(dataProvider = "getPersonGroupCreateDataProvider")
-    public void testGetPersonGroupCreateTest(String caseName, PersonGroupCreateRequestBean personGroupCreateRequestBean, EnumCode enumCode){
-        logger.info("--------------"+caseName+" start--------------");
+    public void testGetPersonGroupCreateTest(String caseName, PersonGroupCreateRequestBean personGroupCreateRequestBean, EnumCode enumCode) {
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new PersonAppCaller().getPostPersonPersonGroupCreate(personGroupCreateRequestBean);
-        BaseRes baseRes = gson.fromJson(responseString,BaseRes.class);
-        Assert.assertEquals(baseRes.getCode(),enumCode.getCode());
-        Assert.assertEquals(baseRes.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        BaseRes baseRes = gson.fromJson(responseString, BaseRes.class);
+        Assert.assertEquals(baseRes.getCode(), enumCode.getCode());
+        Assert.assertEquals(baseRes.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

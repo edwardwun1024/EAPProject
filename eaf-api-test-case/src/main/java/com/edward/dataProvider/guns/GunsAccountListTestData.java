@@ -18,11 +18,8 @@ public class GunsAccountListTestData {
         gunsAccountListRequestBean.setCurrent(count);
         gunsAccountListRequestBean.setSize(pageSise);
 
-
-
-
         return new Object[][]{
-                {"根据条件查询账号",gunsAccountListRequestBean, EnumCode.BASE_SUCCESS}
+                {"根据条件查询账号", gunsAccountListRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

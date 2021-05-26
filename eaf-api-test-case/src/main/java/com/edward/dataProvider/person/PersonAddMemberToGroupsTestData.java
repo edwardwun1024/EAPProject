@@ -24,7 +24,7 @@ public class PersonAddMemberToGroupsTestData {
         personAddMemberToGroupsRequestBean.setGroupIdList(groupIdList);
 
         return new Object[][]{
-                {"加人到多个组中",personAddMemberToGroupsRequestBean, EnumCode.BASE_SUCCESS}
+                {"加人到多个组中", personAddMemberToGroupsRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

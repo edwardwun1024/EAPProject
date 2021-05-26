@@ -16,20 +16,20 @@ import org.testng.annotations.Test;
  */
 public class UtilityOtaListAppByProductTest extends BaseApiTest {
     @DataProvider(name = "dataPrdGetUtilityOtaListAppByProductTest")
-    public Object[][] getDataProviderGetUtilityOtaListAppByProductDataProvider( ){
+    public Object[][] getDataProviderGetUtilityOtaListAppByProductDataProvider() {
         UtilityOtaListAppByProductTestData utilityOtaListAppByProductTestData = new UtilityOtaListAppByProductTestData();
         return utilityOtaListAppByProductTestData.genUtilityOtaListAppByProductTestData();
     }
 
 
     @Test(dataProvider = "dataPrdGetUtilityOtaListAppByProductTest")
-    public void testGetUtilityOtaListAppByProductTest(String caseName, UtilityOtaListAppByProductRequestBean utilityOtaListAppByProductRequestBean, EnumCode enumCode){
+    public void testGetUtilityOtaListAppByProductTest(String caseName, UtilityOtaListAppByProductRequestBean utilityOtaListAppByProductRequestBean, EnumCode enumCode) {
 
-        logger.info("--------------"+caseName+" start--------------");
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new UtilityAppCaller().getUtilityOtaListAppByProduct(utilityOtaListAppByProductRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
-        Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
-        Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        Assert.assertEquals(loginResponse.getCode(), enumCode.getCode());
+        Assert.assertEquals(loginResponse.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

@@ -21,7 +21,7 @@ public class PersonCreateTestData {
         personCreateRequestBean.setOperatePerson(operatePerson);
 
         return new Object[][]{
-                {"创建人员",personCreateRequestBean, EnumCode.BASE_SUCCESS}
+                {"创建人员", personCreateRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

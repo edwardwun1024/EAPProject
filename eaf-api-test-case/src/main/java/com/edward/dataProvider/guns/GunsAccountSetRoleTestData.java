@@ -17,7 +17,7 @@ public class GunsAccountSetRoleTestData {
         gunsAccountSetRoleRequestBean.setRoleIds(roleIds);
 
         return new Object[][]{
-                {"根据userId为用户添加角色",gunsAccountSetRoleRequestBean, EnumCode.BASE_SUCCESS}
+                {"根据userId为用户添加角色", gunsAccountSetRoleRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

@@ -12,7 +12,7 @@ public class UtilityOtaListProductTestData {
         UtilityOtaListProductRequestBean utilityOtaListProductRequestBean = new UtilityOtaListProductRequestBean();
 
         return new Object[][]{
-                {"获取产品",utilityOtaListProductRequestBean, EnumCode.BASE_SUCCESS}
+                {"获取产品", utilityOtaListProductRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

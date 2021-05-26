@@ -16,19 +16,19 @@ import org.testng.annotations.Test;
  */
 public class PersonMemberAddGroupMemberTest extends BaseApiTest {
     @DataProvider(name = "getPersonMemberAddGroupMemberTestDataProvider")
-    public Object[][] getDataProviderPersonMemberAddGroupMemberTestDataProvider( ){
+    public Object[][] getDataProviderPersonMemberAddGroupMemberTestDataProvider() {
         PersonMemberAddGroupMemberTestData personMemberAddGroupMemberTestData = new PersonMemberAddGroupMemberTestData();
         return personMemberAddGroupMemberTestData.genPersonMemberAddGroupMemberTestData();
     }
 
 
     @Test(dataProvider = "getPersonMemberAddGroupMemberTestDataProvider")
-    public void testGetPersonMemberAddGroupMemberTest(String caseName, PersonMemberAddGroupMemberRequestBean personMemberAddGroupMemberRequestBean, EnumCode enumCode){
-        logger.info("--------------"+caseName+" start--------------");
+    public void testGetPersonMemberAddGroupMemberTest(String caseName, PersonMemberAddGroupMemberRequestBean personMemberAddGroupMemberRequestBean, EnumCode enumCode) {
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new PersonAppCaller().getPostPersonMemberAddGroupMember(personMemberAddGroupMemberRequestBean);
-        BaseRes baseRes = gson.fromJson(responseString,BaseRes.class);
-        Assert.assertEquals(baseRes.getCode(),enumCode.getCode());
-        Assert.assertEquals(baseRes.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        BaseRes baseRes = gson.fromJson(responseString, BaseRes.class);
+        Assert.assertEquals(baseRes.getCode(), enumCode.getCode());
+        Assert.assertEquals(baseRes.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

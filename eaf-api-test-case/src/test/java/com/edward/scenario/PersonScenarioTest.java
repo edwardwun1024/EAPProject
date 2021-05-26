@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
  */
 public class PersonScenarioTest {
     @Test(description = "创建人员并加到人组中")
-    public void genPersonAndAddPersonToGroups(){
+    public void genPersonAndAddPersonToGroups() {
         PersonService personService = new PersonService();
         personService.genPersonAndAddPersonToGoups();
     }

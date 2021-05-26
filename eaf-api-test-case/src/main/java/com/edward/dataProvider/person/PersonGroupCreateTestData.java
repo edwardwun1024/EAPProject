@@ -14,7 +14,7 @@ public class PersonGroupCreateTestData {
         personGroupCreateRequestBean.setType("1");
         personGroupCreateRequestBean.setOperatePerson("60");
         return new Object[][]{
-                {"创建组",personGroupCreateRequestBean, EnumCode.BASE_SUCCESS}
+                {"创建组", personGroupCreateRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

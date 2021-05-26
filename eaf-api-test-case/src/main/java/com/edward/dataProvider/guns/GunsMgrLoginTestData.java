@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class GunsMgrLoginTestData {
 
-    public Object[][] genGunsMgrLoginTestData(){
+    public Object[][] genGunsMgrLoginTestData() {
         String name = "admin";
         String decPwd = "st#000000";
         String accountType = "0";
@@ -26,7 +26,7 @@ public class GunsMgrLoginTestData {
         gunsMgrLoginRequestBean.setAccountType(accountType);
 
         return new Object[][]{
-                {"用户登陆studio",gunsMgrLoginRequestBean, EnumCode.BASE_SUCCESS}
+                {"用户登陆studio", gunsMgrLoginRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

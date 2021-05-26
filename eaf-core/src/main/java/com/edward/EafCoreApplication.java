@@ -7,12 +7,11 @@ package com.edward;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 public class EafCoreApplication {
 
-    public static void main(String[] args){
-        SpringApplication.run(EafCoreApplication.class,args);
+    public static void main(String[] args) {
+        SpringApplication.run(EafCoreApplication.class, args);
     }
 }

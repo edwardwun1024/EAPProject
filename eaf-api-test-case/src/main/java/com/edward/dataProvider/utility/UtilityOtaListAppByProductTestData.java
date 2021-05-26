@@ -20,8 +20,8 @@ public class UtilityOtaListAppByProductTestData {
         utilityOtaListAppByProductRequestBean2.setProduct(product2);
 
         return new Object[][]{
-                {"获取产品应用-sensepass",utilityOtaListAppByProductRequestBean1, EnumCode.BASE_SUCCESS},
-                {"获取产品应用-nebula",utilityOtaListAppByProductRequestBean2, EnumCode.BASE_SUCCESS}
+                {"获取产品应用-sensepass", utilityOtaListAppByProductRequestBean1, EnumCode.BASE_SUCCESS},
+                {"获取产品应用-nebula", utilityOtaListAppByProductRequestBean2, EnumCode.BASE_SUCCESS}
 
         };
     }

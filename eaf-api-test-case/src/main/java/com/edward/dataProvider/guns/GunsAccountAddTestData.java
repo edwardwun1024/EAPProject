@@ -10,8 +10,7 @@ import com.edward.requestbean.guns.bean.GunsAccountAddRequestBean;
  */
 public class GunsAccountAddTestData {
 
-    public Object[][] genGunsAccountAddTestData(){
-
+    public Object[][] genGunsAccountAddTestData() {
 
 
         String account = "wangcheng1test";
@@ -23,8 +22,6 @@ public class GunsAccountAddTestData {
         String phone = "16602103425";
         Integer createUser = 1;
         String accountType = "0";
-
-
 
 
         GunsAccountAddRequestBean gunsAccountAddRequestBean = new GunsAccountAddRequestBean();
@@ -40,21 +37,20 @@ public class GunsAccountAddTestData {
 
 
         return new Object[][]{
-                {"添加账号",gunsAccountAddRequestBean, EnumCode.BASE_SUCCESS}
+                {"添加账号", gunsAccountAddRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 
-    public String getEncPwd(String decPwd){
+    public String getEncPwd(String decPwd) {
         String encPwd = null;
         try {
-            encPwd= AES256Utils.encrypt(decPwd.getBytes());
+            encPwd = AES256Utils.encrypt(decPwd.getBytes());
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         return encPwd;
     }
-
 
 
 }

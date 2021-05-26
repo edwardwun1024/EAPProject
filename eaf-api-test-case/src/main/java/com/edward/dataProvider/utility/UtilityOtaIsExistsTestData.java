@@ -12,7 +12,7 @@ public class UtilityOtaIsExistsTestData {
         UtilityOtaIsExistsRequestBean utilityOtaIsExistsRequestBean = new UtilityOtaIsExistsRequestBean();
 
         return new Object[][]{
-                {"检查包信息是否存在",utilityOtaIsExistsRequestBean, EnumCode.BASE_SUCCESS}
+                {"检查包信息是否存在", utilityOtaIsExistsRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

@@ -12,24 +12,25 @@ import org.testng.annotations.Test;
 
 /**
  * 功能：添加用户
+ *
  * @author wangcheng
  * @date 2019/12/16 19:12
  */
 public class GunsAccountAddTest extends BaseApiTest {
     @DataProvider(name = "dataPrdGetGunsAccountAdd")
-    public Object[][] getDataProviderGetGunsMgrLoginDataProvider( ){
+    public Object[][] getDataProviderGetGunsMgrLoginDataProvider() {
         GunsAccountAddTestData gunsAccountAddTestData = new GunsAccountAddTestData();
         return gunsAccountAddTestData.genGunsAccountAddTestData();
     }
 
 
     @Test(dataProvider = "dataPrdGetGunsAccountAdd")
-    public void testGetGunsMgrLoginTest(String caseName, GunsAccountAddRequestBean gunsAccountAddRequestBean, EnumCode enumCode){
-        logger.info("--------------"+caseName+" start--------------");
+    public void testGetGunsMgrLoginTest(String caseName, GunsAccountAddRequestBean gunsAccountAddRequestBean, EnumCode enumCode) {
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new GunsAppCaller().getGunsAccountAdd(gunsAccountAddRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
-        Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
-        Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        Assert.assertEquals(loginResponse.getCode(), enumCode.getCode());
+        Assert.assertEquals(loginResponse.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

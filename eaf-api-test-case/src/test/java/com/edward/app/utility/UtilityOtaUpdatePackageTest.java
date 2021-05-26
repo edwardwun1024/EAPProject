@@ -16,20 +16,20 @@ import org.testng.annotations.Test;
  */
 public class UtilityOtaUpdatePackageTest extends BaseApiTest {
     @DataProvider(name = "dataPrdGetUtilityOtaUpdatePackageTest")
-    public Object[][] getDataProviderGetUtilityOtaUpdatePackageDataProvider( ){
+    public Object[][] getDataProviderGetUtilityOtaUpdatePackageDataProvider() {
         UtilityOtaUpdatePackageTestData utilityOtaUpdatePackageTestData = new UtilityOtaUpdatePackageTestData();
         return utilityOtaUpdatePackageTestData.genUtilityOtaUpdatePackageTestData();
     }
 
 
     @Test(dataProvider = "dataPrdGetUtilityOtaUpdatePackageTest")
-    public void testGetUtilityOtaUpdatePackageTest(String caseName, UtilityOtaUpdatePackageRequestBean utilityOtaUpdatePackageRequestBean, EnumCode enumCode){
+    public void testGetUtilityOtaUpdatePackageTest(String caseName, UtilityOtaUpdatePackageRequestBean utilityOtaUpdatePackageRequestBean, EnumCode enumCode) {
 
-        logger.info("--------------"+caseName+" start--------------");
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new UtilityAppCaller().getUtilityOtaUpdatePackage(utilityOtaUpdatePackageRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
-        Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
-        Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        Assert.assertEquals(loginResponse.getCode(), enumCode.getCode());
+        Assert.assertEquals(loginResponse.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

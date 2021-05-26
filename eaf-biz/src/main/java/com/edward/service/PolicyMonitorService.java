@@ -4,7 +4,7 @@ import com.edward.appcaller.PolicyMonitorAppCaller;
 import com.edward.common.EnumCode;
 import com.edward.requestbean.policymonitor.bean.*;
 import com.edward.responsebean.basic.BaseRes;
-import org.junit.Assert;
+import org.testng.Assert;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

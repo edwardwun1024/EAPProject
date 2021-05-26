@@ -23,7 +23,7 @@ public class PersonMemberAddGroupMemberTestData {
         personMemberAddGroupMemberRequestBean.setOperatePerson(operatePerson);
 
         return new Object[][]{
-                {"将人加到组中",personMemberAddGroupMemberRequestBean, EnumCode.BASE_SUCCESS}
+                {"将人加到组中", personMemberAddGroupMemberRequestBean, EnumCode.BASE_SUCCESS}
         };
     }
 }

@@ -1,183 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252bfca4-ecb8-4b81-a0aa-74b233a8f5f6" name="Default Changelist" comment="y">
+    <list default="true" id="252bfca4-ecb8-4b81-a0aa-74b233a8f5f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-api-test-case/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/DeviceListRes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/GetDeviceListResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/PolicyDevices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/PolicyTargets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/guns/GunsAccountAddTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/guns/GunsAccountListTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/guns/GunsAccountSetRoleTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/guns/GunsMgrLoginTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/guns/GunsRoleTreeListByUserIdTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/person/PersonAddMemberToGroupsTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/person/PersonCreateTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/person/PersonGroupCreateTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/person/PersonGroupListTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/person/PersonMemberAddGroupMemberTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/utility/UtilityFilesUploadImageTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/utility/UtilityOtaIsExistsTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/utility/UtilityOtaListAppByProductTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/utility/UtilityOtaListProductTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/com/edward/dataProvider/utility/UtilityOtaUpdatePackageTestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/Base/BaseApiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsAccountAddTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsAccountListTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsAccountListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsAccountSetRoleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsMgrLoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsRoleTreeListByUserIdTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/guns/GunsRoleTreeListByUserIdTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/person/PersonAddMemberToGroupsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/person/PersonCreateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/person/PersonGroupCreateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/person/PersonGroupListTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/person/PersonGroupListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/person/PersonMemberAddGroupMemberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/utility/UtilityFilesUploadImageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/utility/UtilityOtaIsExistsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/utility/UtilityOtaListAppByProductTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/utility/UtilityOtaListProductTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/app/utility/UtilityOtaUpdatePackageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/scenario/GunsScenarioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/target/test-classes/com/edward/scenario/PersonScenarioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/GunsApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/PersonApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/SenseBiApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/app/UtilityApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/appcaller/GunsAppCaller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/appcaller/PersonAppCaller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/appcaller/SenseBiAppCaller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/appcaller/UtilityAppCaller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/implement/ServiceCallerImplement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/base/BasePageReq$BasePageReqBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/base/BasePageReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsAccountAddRequestBean$GunsAccountAddRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsAccountAddRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsAccountListRequestBean$GunsAccountListRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsAccountSetRoleRequestBean$GunsAccountSetRoleRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsAccountSetRoleRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsMgrLoginRequestBean$GunsMgrLoginRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsMgrLoginRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsRoleTreeListByUserIdRequestBean$GunsRoleTreeListByUserIdRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/bean/GunsRoleTreeListByUserIdRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/dataTemplate/GunsAccountAddTpl$TestValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/dataTemplate/GunsAccountAddTpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/dataTemplate/GunsAccountSetRoleTpl$TestValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/dataTemplate/GunsAccountSetRoleTpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl$TestValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/dataTemplate/GunsRoleTreeListByUserIdTpl$TestValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/guns/dataTemplate/GunsRoleTreeListByUserIdTpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonAddMemberToGroupsRequestBean$PersonAddMemberToGroupsRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonAddMemberToGroupsRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonCreateRequestBean$PersonCreateRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonCreateRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonGroupCreateRequestBean$PersonGroupCreateRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonGroupCreateRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonGroupListRequestBean$PersonGroupListRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonGroupListRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonMemberAddGroupMemberRequestBean$PersonMemberAddGroupMemberRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/person/bean/PersonMemberAddGroupMemberRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$AngleBean$AngleBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$AngleBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$ContentBean$ContentBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$ContentBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$DepthBean$DepthBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$DepthBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$LandmarksBean$LandmarksBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$LandmarksBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$RectangleBean$RectangleBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$RectangleBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$TargetImagesBean$TargetImagesBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$TargetImagesBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$TargetInfoBean$TargetInfoBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$TargetInfoBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$VerticesBean$VerticesBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq$VerticesBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/IdentifyDataReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/SensePassV2RecordRequestBean$SensePassV2RecordRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/bean/SensePassV2RecordRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/dataTemplate/SensePassV2RecordTpl$TestValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/sensebi/dataTemplate/SensePassV2RecordTpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/utility/bean/UtilityFilesUploadImageRequestBean$UtilityFilesUploadImageRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/utility/bean/UtilityFilesUploadImageRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/utility/bean/UtilityOtaIsExistsRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/utility/bean/UtilityOtaListAppByProductRequestBean$UtilityOtaListAppByProductRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/utility/bean/UtilityOtaListAppByProductRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/utility/bean/UtilityOtaListProductRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/utility/bean/UtilityOtaUpdatePackageRequestBean$UtilityOtaUpdatePackageRequestBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/requestbean/utility/bean/UtilityOtaUpdatePackageRequestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/basic/BaseRes$BaseResBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/basic/BaseRes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/basic/PageRes$PageResBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/basic/PageRes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/guns/UserDto$UserDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/guns/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/guns/ZTreeNode$ZTreeNodeBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/guns/ZTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/person/PersonGroupListRes$PersonGroupListResBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-app/target/classes/com/edward/responsebean/person/PersonGroupListRes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-biz/target/classes/com/edward/service/BaseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-biz/target/classes/com/edward/service/GunsService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-biz/target/classes/com/edward/service/GunsService$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-biz/target/classes/com/edward/service/GunsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-biz/target/classes/com/edward/service/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/device/DeviceCreateTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/device/DeviceCreateTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountAddTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountAddTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountListTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountListTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountSetRoleTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountSetRoleTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsMgrLoginTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsMgrLoginTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsRoleTreeListByUserIdTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsRoleTreeListByUserIdTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonAddMemberToGroupsTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonAddMemberToGroupsTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonCreateTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonCreateTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonGroupCreateTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonGroupCreateTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonGroupListTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonGroupListTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonMemberAddGroupMemberTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonMemberAddGroupMemberTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/policymonitor/FilteringRuleMonitorCreateTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/policymonitor/FilteringRuleMonitorCreateTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityFilesUploadImageTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityFilesUploadImageTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaIsExistsTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaIsExistsTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListAppByProductTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListAppByProductTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListProductTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaListProductTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaUpdatePackageTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/utility/UtilityOtaUpdatePackageTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/Base/BaseApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/Base/BaseApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/device/DeviceCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/device/DeviceCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsAccountAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsAccountAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsAccountListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsAccountListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsAccountSetRoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsAccountSetRoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsRoleTreeListByUserIdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsRoleTreeListByUserIdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonAddMemberToGroupsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonAddMemberToGroupsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonGroupCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonGroupCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonGroupListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonGroupListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonMemberAddGroupMemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/person/PersonMemberAddGroupMemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/policymonitor/FilteringRuleMonitorCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/policymonitor/FilteringRuleMonitorCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityFilesUploadImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityFilesUploadImageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaIsExistsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaIsExistsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListAppByProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListAppByProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaListProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaUpdatePackageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/utility/UtilityOtaUpdatePackageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/GunsScenarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/GunsScenarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PersonScenarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PersonScenarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PolicyMonitorScenarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PolicyMonitorScenarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-biz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-biz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/DeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/GunsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/GunsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PolicyMonitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PolicyMonitorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/EafCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/EafCoreApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/KafkaTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/KafkaTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/KafkaTool.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/services/SwaggerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/services/SwaggerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/EafCoreApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/EafCoreApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/AES256Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/AES256Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/CommonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/EnumCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/EnumCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/KafkaTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/KafkaTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/SpringContextHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/common/SpringContextHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpClientUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/HttpMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/builder/HCB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/builder/HCB$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/builder/HCB.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/builder/HCB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpCookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpCookies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpHeader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/HttpResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/SSLs$SSLHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/SSLs$SSLHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/SSLs$SSLProtocolVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/SSLs$SSLProtocolVersion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/SSLs.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/SSLs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/OCR.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/OCR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/OldOCR.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/OldOCR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/PropertiesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/PropertiesUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/common/util/StringUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/evictor/NIdleConnectionEvictor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/evictor/NIdleConnectionEvictor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/evictor/NIdleConnectionEvictor$DefaultThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/evictor/NIdleConnectionEvictor$DefaultThreadFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/evictor/NIdleConnectionEvictor.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/evictor/NIdleConnectionEvictor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/exception/HttpProcessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/http/exception/HttpProcessException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/ToolEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/ToolEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/ApiModle$ApiModleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/ApiModle$ApiModleBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/ApiModle.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/ApiModle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/ParameterBean$ParameterBeanBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/ParameterBean$ParameterBeanBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/ParameterBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/ParameterBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/PathModel$PathModelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/PathModel$PathModelBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/PathModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/PathModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/RequestTypeModel$RequestTypeModelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/RequestTypeModel$RequestTypeModelBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/RequestTypeModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/RequestTypeModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerApiModleForApp$SwaggerApiModleForAppBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerApiModleForApp$SwaggerApiModleForAppBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerApiModleForApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerApiModleForApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerProjectBean$SwaggerProjectBeanBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerProjectBean$SwaggerProjectBeanBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerProjectBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerProjectBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerProjectModelPathBean$SwaggerProjectModelPathBeanBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerProjectModelPathBean$SwaggerProjectModelPathBeanBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerProjectModelPathBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/models/SwaggerProjectModelPathBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/services/SwaggerService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/services/SwaggerService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/services/SwaggerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-core/target/classes/com/edward/swaggertool/services/SwaggerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/ToolEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/ApiModle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/ParameterBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/PathModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/RequestTypeModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerApiModleForApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerItemModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectModelPathBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/definitionsModel/DefinitionsBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/definitionsModel/ParametersForRequestTypeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/definitionsModel/RequestTypeValueModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/services/SwaggerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eaf-core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -210,77 +104,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/services/SwaggerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5192">
-              <caret line="142" column="53" selection-start-line="142" selection-start-column="53" selection-end-line="142" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1319#1340#0" expanded="true" />
-                <element signature="e#1925#1948#0" expanded="true" />
-                <element signature="e#2421#2432#0" expanded="true" />
-                <element signature="e#2881#2899#0" expanded="true" />
-                <element signature="e#3684#3694#0" expanded="true" />
-              </folding>
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/StringUtil.java">
+        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="91" column="7" selection-start-line="87" selection-start-column="6" selection-end-line="91" selection-end-column="7" />
+            <state relative-caret-position="456">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/KafkaTool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="121" column="11" lean-forward="true" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java">
+        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/EafCoreApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="978">
-              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="266">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/ToolEntry.java">
+        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/DeviceListRes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/suite/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -288,7 +151,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eaf-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1425" />
+            <state relative-caret-position="351">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -316,6 +190,22 @@
       <find>SPECIAL_ENTITIY</find>
       <find>eventTrackTime</find>
       <find>@Test</find>
+      <find>unit</find>
+      <find>2.19</find>
+      <find>2.22</find>
+      <find>org.apache.httpcomponents</find>
+      <find>org.testng</find>
+      <find>spring-boot-autoconfigure</find>
+      <find>log4j</find>
+      <find>jsonpath</find>
+      <find>google.code.gson</find>
+      <find>httpclient</find>
+      <find>testng</find>
+      <find>fastjson</find>
+      <find>org.json</find>
+      <find>json</find>
+      <find>gson</find>
+      <find>org.springframework</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -324,6 +214,8 @@
       <dir>C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-app\src\main\java\com\edward\requestbean\guns</dir>
       <dir>C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-app\src\main\java\com\edward\requestbean</dir>
       <dir>C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-core</dir>
+      <dir>C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject</dir>
+      <dir>C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-api-test-case</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -332,19 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PersonScenarioTest.java" />
-        <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PersonService.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/Base64Utils.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectModelPathBean.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/ToolEntry.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/SwaggerProjectBean.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/resources/studio202.properties" />
-        <option value="$PROJECT_DIR$/eaf-core/pom.xml" />
-        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl.java" />
-        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsMgrLoginRequestBean.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/definitionsModel/ParametersForRequestTypeValue.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/definitionsModel/RequestTypeValueModel.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/RequestTypeModel.java" />
         <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/models/definitionsModel/DefinitionsBean.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/DeviceApp.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/device/bean/DeviceRegionCreateEntity.java" />
@@ -368,21 +247,34 @@
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/SenseyeXAppCaller.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/CognitiveSwitcherAppCaller.java" />
         <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/device/DeviceCreateTestData.java" />
-        <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/GunsService.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/AbstractServiceCaller.java" />
         <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/BaseService.java" />
         <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/device/DeviceCreateTest.java" />
-        <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/DeviceService.java" />
         <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/policymonitor/FilteringRuleMonitorCreateTestData.java" />
         <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PolicyMonitorScenarioTest.java" />
-        <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PolicyMonitorService.java" />
         <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/cognitivexswitcher/CognitiveXswitcherCognitiveDeviceInfraFrameTest.java" />
         <option value="$PROJECT_DIR$/eaf-api-test-case/testng.xml" />
-        <option value="$PROJECT_DIR$/eaf-api-test-case/pom.xml" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/KafkaTool.java" />
-        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java" />
         <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/services/SwaggerService.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java" />
+        <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/DeviceService.java" />
+        <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PolicyMonitorService.java" />
+        <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsRoleTreeListByUserIdTestData.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsMgrLoginTestData.java" />
+        <option value="$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/GunsService.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountListTestData.java" />
+        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl.java" />
+        <option value="$PROJECT_DIR$/eaf-app/pom.xml" />
+        <option value="$PROJECT_DIR$/eaf-biz/pom.xml" />
+        <option value="$PROJECT_DIR$/eaf-core/pom.xml" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/EafCoreApplication.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/EafApiTestCaseApplication.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -405,11 +297,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eaf-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="eaf-api-test-case" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eaf-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="eaf-api-test-case" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-integration" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-integration" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -475,6 +376,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
+              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
@@ -561,7 +472,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42873564" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -602,10 +513,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml">
-    <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml">
+    <configuration name="EafApiTestCaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eaf-api-test-case" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/eaf-api-test-case/testng.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edward.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edward.EafApiTestCaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EafCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eaf-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edward.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edward.EafCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eaf-api-test-case" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/suite/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -613,18 +550,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeviceCreateTest.testGetDeviceCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eaf-api-test-case" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edward.app.device.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.edward.app.device" />
-      <option name="MAIN_CLASS_NAME" value="com.edward.app.device.DeviceCreateTest" />
-      <option name="METHOD_NAME" value="testGetDeviceCreateTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/eaf-api-test-case/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -649,56 +578,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolicyMonitorScenarioTest.genFilteringRuleMonitor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eaf-api-test-case" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edward.scenario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.edward.scenario" />
-      <option name="MAIN_CLASS_NAME" value="com.edward.scenario.PolicyMonitorScenarioTest" />
-      <option name="METHOD_NAME" value="genFilteringRuleMonitor" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolicyMonitorScenarioTest.genFilteringRuleMonitorForRegionDeviceWithMoreDevice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eaf-api-test-case" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edward.scenario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.edward.scenario" />
-      <option name="MAIN_CLASS_NAME" value="com.edward.scenario.PolicyMonitorScenarioTest" />
-      <option name="METHOD_NAME" value="genFilteringRuleMonitorForRegionDeviceWithMoreDevice" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.GunsMgrLoginTest.testGetGunsMgrLoginTest" />
-      <item itemvalue="TestNG.DeviceCreateTest.testGetDeviceCreateTest" />
-      <item itemvalue="TestNG.PolicyMonitorScenarioTest.genFilteringRuleMonitor" />
-      <item itemvalue="TestNG.PolicyMonitorScenarioTest.genFilteringRuleMonitorForRegionDeviceWithMoreDevice" />
       <item itemvalue="TestNG.C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" />
+      <item itemvalue="TestNG.C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" />
+      <item itemvalue="Spring Boot.EafApiTestCaseApplication" />
+      <item itemvalue="Spring Boot.EafCoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" />
+        <item itemvalue="Spring Boot.EafCoreApplication" />
+        <item itemvalue="Spring Boot.EafApiTestCaseApplication" />
         <item itemvalue="TestNG.C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" />
         <item itemvalue="TestNG.GunsMgrLoginTest.testGetGunsMgrLoginTest" />
-        <item itemvalue="TestNG.PolicyMonitorScenarioTest.genFilteringRuleMonitorForRegionDeviceWithMoreDevice" />
-        <item itemvalue="TestNG.PolicyMonitorScenarioTest.genFilteringRuleMonitor" />
-        <item itemvalue="TestNG.DeviceCreateTest.testGetDeviceCreateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -953,43 +846,50 @@
       <option name="project" value="LOCAL" />
       <updated>1611140171664</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="优化1">
+      <created>1622011934547</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1622011934547</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolicyMonitorScenarioTest_genFilteringRuleMonitorForRegionDeviceWithMoreDevice - 2021.01.21 at 20h 49m 31s.xml">
-      <configuration name="PolicyMonitorScenarioTest.genFilteringRuleMonitorForRegionDeviceWithMoreDevice" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 40m 05s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PolicyMonitorScenarioTest_genFilteringRuleMonitorForRegionDeviceWithMoreDevice - 2021.01.21 at 20h 50m 56s.xml">
-      <configuration name="PolicyMonitorScenarioTest.genFilteringRuleMonitorForRegionDeviceWithMoreDevice" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 41m 23s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PolicyMonitorScenarioTest_genFilteringRuleMonitorForRegionDeviceWithMoreDevice - 2021.01.21 at 21h 00m 22s.xml">
-      <configuration name="PolicyMonitorScenarioTest.genFilteringRuleMonitorForRegionDeviceWithMoreDevice" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 42m 06s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PolicyMonitorScenarioTest_genFilteringRuleMonitorForRegionDeviceWithMoreDevice - 2021.01.21 at 21h 07m 17s.xml">
-      <configuration name="PolicyMonitorScenarioTest.genFilteringRuleMonitorForRegionDeviceWithMoreDevice" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 43m 24s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GunsMgrLoginTest_testGetGunsMgrLoginTest - 2021.05.26 at 14h 01m 44s.xml">
-      <configuration name="GunsMgrLoginTest.testGetGunsMgrLoginTest" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 44m 24s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_testng_xml - 2021.05.26 at 14h 02m 17s.xml">
-      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 47m 20s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_testng_xml - 2021.05.26 at 14h 10m 24s.xml">
-      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 48m 37s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_testng_xml - 2021.05.26 at 14h 10m 44s.xml">
-      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 51m 04s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_testng_xml - 2021.05.26 at 14h 12m 22s.xml">
-      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 54m 19s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_testng_xml - 2021.05.26 at 14h 13m 23s.xml">
-      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/testng.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 17h 02m 24s.xml">
+      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147320000" />
+    <option name="totallyTimeSpent" value="155613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1002,8 +902,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-267" y="-1088" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2468017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1011,23 +912,23 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19599108" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45768374" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5443686" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44766146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24053451" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38418707" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.44709897" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32739422" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32405347" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.54565704" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.26385927" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.37420043" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -1098,7 +999,8 @@
     <MESSAGE value="add kafkaTool、Base64Utils" />
     <MESSAGE value="添加device相关模块，添加deviceCreatCase" />
     <MESSAGE value="2、添加policyMonitor、device scenario&#10;1、添加policyMonitor、device case" />
-    <option name="LAST_COMMIT_MESSAGE" value="2、添加policyMonitor、device scenario&#10;1、添加policyMonitor、device case" />
+    <MESSAGE value="优化1" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化1" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1189,122 +1091,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/device/bean/DeviceCreateRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/implement/ServiceCallerImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/policymonitor/bean/CommonRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/PolicyMonitorApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="87" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/GunsApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/DeviceAppCaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/SenseyeXAppCaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/SenseyeXApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/DeviceApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/cognitiveswitcher/bean/CognitiveDeviceInfraFetchFrameRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java64/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="209" column="46" lean-forward="true" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpClientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1319,13 +1105,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsMgrLoginTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="76" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -1377,23 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/GunsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="133" column="87" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/DeviceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/DeviceScenarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1415,13 +1177,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1513,33 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PolicyMonitorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="173" column="35" lean-forward="true" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7876#7888#0" expanded="true" />
-            <element signature="e#7959#7977#0" expanded="true" />
-            <element signature="e#8370#8391#0" expanded="true" />
-            <element signature="method#getActionBean#0;class#PolicyMonitorService#0" />
-            <element signature="method#getTargetBean#0;class#PolicyMonitorService#0" />
-            <element signature="method#getDeviceBean#0;class#PolicyMonitorService#0" />
-            <element signature="e#8888#8906#0" expanded="true" />
-            <element signature="e#9185#9206#0" expanded="true" />
-            <element signature="e#9452#9466#0" expanded="true" />
-            <element signature="method#getAppliedModelsEntity#0;class#PolicyMonitorService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/EafCoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/CognitiveSwitcherAppCaller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1567,30 +1295,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/swaggertool/ToolEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="978">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1614,7 +1322,65 @@
     <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/KafkaTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="121" column="11" lean-forward="true" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountListRequestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsAccountAddTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/DeviceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PolicyMonitorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getActionBean#0;class#PolicyMonitorService#0" />
+            <element signature="method#getTargetBean#0;class#PolicyMonitorService#0" />
+            <element signature="method#getDeviceBean#0;class#PolicyMonitorService#0" />
+            <element signature="method#getAppliedModelsEntity#0;class#PolicyMonitorService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1625,15 +1391,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/common/CommonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425" />
+        <state relative-caret-position="114">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/util/StringUtil.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsRoleTreeListByUserIdTestData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="91" column="7" selection-start-line="87" selection-start-column="6" selection-end-line="91" selection-end-column="7" />
+        <state relative-caret-position="76">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/GunsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountListTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonGroupListTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsMgrLoginTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountAddTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountAddRequestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-biz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/DeviceListRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/EafApiTestCaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/EafCoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
         </state>
       </provider>
     </entry>

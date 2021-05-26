@@ -13,25 +13,26 @@ import org.testng.annotations.Test;
 /**
  * 功能：根据userId为用户添加角色
  * url：/GUNS/account/setRole
+ *
  * @author wangcheng
  * @date 2020/5/11 18:18
  */
 public class GunsAccountSetRoleTest extends BaseApiTest {
     @DataProvider(name = "dataPrdGunsAccountSetRoleTest")
-    public Object[][] getDataProviderGetGunsRoleTreeListByUserIdDataProvider( ){
+    public Object[][] getDataProviderGetGunsRoleTreeListByUserIdDataProvider() {
         GunsAccountSetRoleTestData gunsRoleTreeListByUserIdTestData = new GunsAccountSetRoleTestData();
         return gunsRoleTreeListByUserIdTestData.genGunsAccountSetRoleTestData();
     }
 
 
     @Test(dataProvider = "dataPrdGunsAccountSetRoleTest")
-    public void testGetGunsRoleTreeListByUserId(String caseName, GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean, EnumCode enumCode){
+    public void testGetGunsRoleTreeListByUserId(String caseName, GunsAccountSetRoleRequestBean gunsAccountSetRoleRequestBean, EnumCode enumCode) {
 
-        logger.info("--------------"+caseName+" start--------------");
+        logger.info("--------------" + caseName + " start--------------");
         String responseString = new GunsAppCaller().getGunsAccountSetRole(gunsAccountSetRoleRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
-        Assert.assertEquals(loginResponse.getCode(),enumCode.getCode());
-        Assert.assertEquals(loginResponse.getMsg(),enumCode.getMsg());
-        logger.info("--------------"+caseName+" end--------------");
+        Assert.assertEquals(loginResponse.getCode(), enumCode.getCode());
+        Assert.assertEquals(loginResponse.getMsg(), enumCode.getMsg());
+        logger.info("--------------" + caseName + " end--------------");
     }
 }

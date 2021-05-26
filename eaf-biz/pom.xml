@@ -2,33 +2,42 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- 基本信息 -->
+    <groupId>com.edward</groupId>
+    <artifactId>eaf-biz</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>eaf-biz</name>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <!-- 继承本项目的父工程 -->
     <parent>
         <artifactId>EAFProject</artifactId>
         <groupId>com.edward</groupId>
-        <version>0.1-SNAPSHOT</version>
+        <version>1.0.0.RELEASE</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>eaf-biz</artifactId>
 
     <dependencies>
-        <!--添加项目依赖-start-->
+        <!-- 项目依赖 -->
         <dependency>
             <groupId>com.edward</groupId>
             <artifactId>eaf-app</artifactId>
-            <version>0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.edward</groupId>
             <artifactId>eaf-core</artifactId>
-            <version>0.1-SNAPSHOT</version>
         </dependency>
+
+        <!-- 包依赖 -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
         </dependency>
-        <!--添加项目依赖-end-->
-
     </dependencies>
 
     <build>
@@ -44,5 +53,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

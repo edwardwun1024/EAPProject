@@ -4,7 +4,6 @@ import com.edward.appcaller.PersonAppCaller;
 import com.edward.requestbean.person.bean.PersonAddMemberToGroupsRequestBean;
 import com.edward.requestbean.person.bean.PersonCreateRequestBean;
 import com.edward.responsebean.basic.BaseRes;
-import org.junit.Test;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

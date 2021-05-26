@@ -1,7 +1,5 @@
 package com.edward.http.common.util;
 
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -85,8 +83,8 @@ public class StringUtil {
 
 
 
-//    @Test
-//    public void test(){
+//
+//    public  test(){
 //        String url = "/crowdMonitoringPolicy/create";
 //        System.out.println(changeAaaBbbToAAA_BBB(url));
 //    }
