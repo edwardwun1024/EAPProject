@@ -42,7 +42,7 @@ public class SwaggerService {
      * @return
      */
     public List<SwaggerProjectModel> getAllProjects() {
-        List<SwaggerProjectModel> projects = new ArrayList<>();
+        List<SwaggerProjectModel> projects = new ArrayList<SwaggerProjectModel>();
         String httpResponse = doGetBySwaggerResources(GET_SWAGGER_RESOURCES);
         List<SwaggerProjectModel> swaggerProjectModels = new Gson().fromJson(httpResponse, new TypeToken<List<SwaggerProjectModel>>() {
         }.getType());
@@ -55,7 +55,7 @@ public class SwaggerService {
      * @return
      */
     public List<SwaggerApiModleForApp> getAllSwaggerProjectBean(List<SwaggerProjectModel> swaggerProjectModelList) {
-        List<SwaggerApiModleForApp> swaggerApiModleForApps = new ArrayList<>();
+        List<SwaggerApiModleForApp> swaggerApiModleForApps = new ArrayList<SwaggerApiModleForApp>();
         //遍历每个project
         for (SwaggerProjectModel swaggerProjectModel : swaggerProjectModelList) {
             String response = doGetBySwaggerResources(new HttpApi(swaggerProjectModel.url, HttpMethod.GET));
@@ -65,7 +65,7 @@ public class SwaggerService {
             //todo
 
             //遍历每一个path
-            ArrayList<PathModel> pathModels = new ArrayList<>();
+            ArrayList<PathModel> pathModels = new ArrayList<PathModel>();
             Map pathMap = swaggerProjectBean.getPaths();
             for (Object key : pathMap.keySet()) {
                 PathModel pathModel = new PathModel();
@@ -74,7 +74,7 @@ public class SwaggerService {
                 pathModels.add(pathModel);
             }
 
-            List<RequestTypeModel> requestTypeModelList = new ArrayList<>();
+            List<RequestTypeModel> requestTypeModelList = new ArrayList<RequestTypeModel>();
             //遍历每一个path的requestType值
             for (PathModel pathModel : pathModels) {
                 String url = pathModel.getUrl();
@@ -89,7 +89,7 @@ public class SwaggerService {
                 }
             }
 
-            List<ApiModle> apiModles = new ArrayList<>();
+            List<ApiModle> apiModles = new ArrayList<ApiModle>();
             //封装成SwaggerProjectModelPathBean
             for (RequestTypeModel requestTypeModel : requestTypeModelList) {
                 //判断

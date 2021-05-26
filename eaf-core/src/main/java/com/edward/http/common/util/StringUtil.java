@@ -85,11 +85,11 @@ public class StringUtil {
 
 
 
-    @Test
-    public void test(){
-        String url = "/crowdMonitoringPolicy/create";
-        System.out.println(changeAaaBbbToAAA_BBB(url));
-    }
+//    @Test
+//    public void test(){
+//        String url = "/crowdMonitoringPolicy/create";
+//        System.out.println(changeAaaBbbToAAA_BBB(url));
+//    }
 
 
 }

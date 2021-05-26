@@ -97,13 +97,13 @@ public class CommonUtils {
     }
 
 
-    @Test
-    public void getBase64Code() {
-        String localImagePath = "/Users/wangcheng1_vendor/Pictures/539091750513872709.jpg";
-        String base64Code = imageToBase64Code(localImagePath);
-        System.out.println(base64Code);
-
-    }
+//    @Test
+//    public void getBase64Code() {
+//        String localImagePath = "/Users/wangcheng1_vendor/Pictures/539091750513872709.jpg";
+//        String base64Code = imageToBase64Code(localImagePath);
+//        System.out.println(base64Code);
+//
+//    }
 
 
 }

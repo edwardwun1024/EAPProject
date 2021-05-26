@@ -119,15 +119,15 @@ public class KafkaTool {
         }
     }
 
-    @Test
-    public void testSendKafa(){
-        String topic = "CityRawEvent";
-        String msg = cityRawEventString();
-            send(topic,msg);
-
-//        System.out.println("下面时接收到的消息");
-//        recieve("sensebi-kafka-group","KeeperRawEvent");
-    }
+//    @Test
+//    public void testSendKafa(){
+//        String topic = "CityRawEvent";
+//        String msg = cityRawEventString();
+//            send(topic,msg);
+//
+////        System.out.println("下面时接收到的消息");
+////        recieve("sensebi-kafka-group","KeeperRawEvent");
+//    }
 
 
     public String cityRawEventString(){
