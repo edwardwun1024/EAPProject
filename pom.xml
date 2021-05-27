@@ -6,7 +6,7 @@
     <!-- 基本信息 -->
     <description>SprintBoot 多模块构建实例</description>
     <modelVersion>4.0.0</modelVersion>
-    <name>springboot-integration</name>
+    <name>EAPProject</name>
     <packaging>pom</packaging>
 
     <properties>
@@ -42,22 +42,22 @@
             <dependency>
                 <groupId>com.edward</groupId>
                 <artifactId>eaf-api-test-case</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>0.0.1-RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>com.edward</groupId>
                 <artifactId>eaf-biz</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>0.0.1-RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>com.edward</groupId>
                 <artifactId>eaf-app</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>0.0.1-RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>com.edward</groupId>
                 <artifactId>eaf-core</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>0.0.1-RELEASE</version>
             </dependency>
 
             <!-- 包依赖版本管理 -->
@@ -81,11 +81,6 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>4.5.10</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>1.2.58</version>
             </dependency>
             <dependency>
                 <groupId>io.swagger</groupId>
@@ -121,11 +116,6 @@
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>1.2.17</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpclient</artifactId>
-                <version>4.5.9</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -166,7 +156,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>6.14.3</version>
+                <version>7.0.0-beta7</version>
             </dependency>
 
             <dependency>

@@ -6,6 +6,7 @@ import com.edward.common.EnumCode;
 import com.edward.dataProvider.guns.GunsMgrLoginTestData;
 import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 import com.edward.responsebean.basic.BaseRes;
+import lombok.extern.log4j.Log4j;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -17,6 +18,7 @@ import org.testng.annotations.Test;
  * @author wangcheng
  * @date 2019/12/16 19:12
  */
+@Log4j
 public class GunsMgrLoginTest extends BaseApiTest {
 
     @DataProvider(name = "dataPrdGetGunsMgrLoginTest")
@@ -31,11 +33,11 @@ public class GunsMgrLoginTest extends BaseApiTest {
     @Test(dataProvider = "dataPrdGetGunsMgrLoginTest")
     public void testGetGunsMgrLoginTest(String caseName, GunsMgrLoginRequestBean gunsMgrLoginRequestBean, EnumCode enumCode) {
 
-        logger.info("--------------" + caseName + " start--------------");
+        log.info("--------------" + caseName + " start--------------");
         String responseString = new GunsAppCaller().getGunsMgrLogin(gunsMgrLoginRequestBean);
         BaseRes loginResponse = gson.fromJson(responseString, BaseRes.class);
         Assert.assertEquals(loginResponse.getCode(), enumCode.getCode());
         Assert.assertEquals(loginResponse.getMsg(), enumCode.getMsg());
-        logger.info("--------------" + caseName + " end--------------");
+        log.info("--------------" + caseName + " end--------------");
     }
 }

@@ -6,7 +6,7 @@
     <!-- 基本信息 -->
     <groupId>com.edward</groupId>
     <artifactId>eaf-biz</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
     <packaging>jar</packaging>
     <name>eaf-biz</name>
     <modelVersion>4.0.0</modelVersion>

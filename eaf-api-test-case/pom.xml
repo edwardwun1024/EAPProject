@@ -5,13 +5,19 @@
     <!-- 基本信息 -->
     <groupId>com.edward</groupId>
     <artifactId>eaf-api-test-case</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
     <packaging>jar</packaging>
     <name>eaf-api-test-case</name>
     <modelVersion>4.0.0</modelVersion>
 
+    <!--java版本和allure版本信息-->
     <properties>
         <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <timestamp>2017-05-16_18_56_43</timestamp>
+        <allure.version>1.4.23</allure.version>
+        <aspectj.version>1.7.4</aspectj.version>
     </properties>
 
     <!-- 继承本项目的父工程 -->
@@ -61,6 +67,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
+
+        <!--allure的testng插件-->
+        <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-testng-adaptor</artifactId>
+            <version>1.5.2</version>
+        </dependency>
     </dependencies>
 
 
@@ -69,11 +82,42 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.14.1</version>
+                <version>3.0.0-M5</version>
                 <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>./src/main/resources/suite/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <argLine>
+                        -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                    </argLine>
+                    <!--生成allure-result的目录-->
+                    <systemProperties>
+                        <property>
+                            <name>allure.results.directory</name>
+                            <value>./target/${timestamp}/allure-results</value>
+                        </property>
+                    </systemProperties>
+                </configuration>
+                <!--allure需要的aspectjweaver插件-->
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+            <!--本地显示测试报告需要jetty插件,-->
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.2.10.v20150310</version>
+                <configuration>
+                    <webAppSourceDirectory>${project.build.directory}/1234/site/allure-maven-plugin</webAppSourceDirectory>
+                    <stopKey>stop</stopKey>
+                    <stopPort>1234</stopPort>
                 </configuration>
             </plugin>
 
@@ -88,6 +132,23 @@
             </plugin>
         </plugins>
     </build>
+
+    <!--allure的report插件，生成html报告,配置case以及bug地址-->
+    <reporting>
+        <excludeDefaults>true</excludeDefaults>
+        <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <reportDirectory>${basedir}\target\allure-report</reportDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+<!--        <outputDirectory>${project.build.directory}/build/allure-results</outputDirectory>-->
+        <outputDirectory>/build/allure-results</outputDirectory>
+    </reporting>
 
 
 </project>
