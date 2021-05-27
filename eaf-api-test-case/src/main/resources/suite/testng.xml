@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="AllGunsTestCase">
+        <packages>
+            <!-- 所有guns相关的case -->
+            <package name="com.edward.app.guns.*"></package>
+        </packages>
+    </test>
+</suite>

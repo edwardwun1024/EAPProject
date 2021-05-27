@@ -1,0 +1,417 @@
+2021-05-26 17:29:46,878  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ç”¨æˆ·ç™»é™†studio start--------------
+2021-05-26 17:29:47,400  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - è¯·æ±‚åœ°å€ï¼šhttp://studio202/GUNS/mgr/login
+2021-05-26 17:29:47,401  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - è¯·æ±‚å‚æ•°ï¼š{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 17:29:47,531  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - HttpStatus:200
+2021-05-26 17:29:47,532  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - HttpResponseMsg:OK
+2021-05-26 17:29:47,533  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - {"code":"0000","msg":"æˆåŠŸ","data":"YWRtaW4sMDpqa24zeHU=","success":true}
+2021-05-26 17:29:47,541  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ç”¨æˆ·ç™»é™†studio end--------------
+2021-05-26 17:47:55,938  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 17:47:56,194  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 17:47:56,194  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 17:47:56,512  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 17:47:56,512  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 17:47:56,514  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 17:47:56,525  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 17:47:56,625  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 17:47:56,625  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 17:47:56,635  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 17:47:56,635  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 17:47:56,636  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 17:47:56,642  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 17:47:56,645  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 17:47:56,646  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 17:47:56,655  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 17:47:56,656  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 17:47:56,657  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 17:47:56,661  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 17:47:56,664  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 17:47:56,665  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 17:47:56,674  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 17:47:56,675  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 17:47:56,675  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 17:47:56,678  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 17:47:56,683  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 17:47:56,683  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 17:47:56,767  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 17:47:56,768  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 17:47:56,768  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDp1aXE1YW8=","success":true}
+2021-05-26 17:47:56,782  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 17:51:13,862  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 17:51:14,086  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 17:51:14,086  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 17:51:14,190  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 17:51:14,190  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 17:51:14,191  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 17:51:14,204  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 17:51:14,308  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 17:51:14,308  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 17:51:14,318  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 17:51:14,318  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 17:51:14,319  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 17:51:14,323  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 17:51:14,327  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 17:51:14,327  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 17:51:14,335  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 17:51:14,336  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 17:51:14,336  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 17:51:14,340  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 17:51:14,343  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 17:51:14,343  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 17:51:14,351  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 17:51:14,352  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 17:51:14,352  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 17:51:14,355  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 17:51:14,361  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 17:51:14,361  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 17:51:14,396  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 17:51:14,396  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 17:51:14,397  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDptaG8yYWI=","success":true}
+2021-05-26 17:51:14,402  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 18:09:40,996  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 18:09:41,229  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 18:09:41,230  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 18:09:41,315  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:09:41,315  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:09:41,316  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:09:41,329  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 18:09:41,425  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 18:09:41,425  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 18:09:41,432  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:09:41,432  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:09:41,433  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:09:41,437  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 18:09:41,439  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 18:09:41,440  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 18:09:41,447  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:09:41,448  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:09:41,448  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:09:41,453  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 18:09:41,455  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 18:09:41,456  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 18:09:41,462  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:09:41,462  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:09:41,462  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:09:41,465  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 18:09:41,468  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 18:09:41,469  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 18:09:41,500  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 18:09:41,501  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 18:09:41,501  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDo3NGNjYWY=","success":true}
+2021-05-26 18:09:41,510  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 18:16:21,584  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 18:16:21,805  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 18:16:21,806  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 18:16:21,896  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:16:21,897  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:16:21,899  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:16:21,916  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 18:16:22,006  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 18:16:22,006  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 18:16:22,014  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:16:22,015  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:16:22,015  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:16:22,020  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 18:16:22,022  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 18:16:22,022  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 18:16:22,030  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:16:22,031  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:16:22,031  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:16:22,036  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 18:16:22,038  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 18:16:22,039  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 18:16:22,047  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:16:22,047  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:16:22,048  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:16:22,050  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 18:16:22,053  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 18:16:22,054  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 18:16:22,086  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 18:16:22,087  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 18:16:22,087  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDp1N2preDE=","success":true}
+2021-05-26 18:16:22,097  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 18:25:33,207  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 18:25:33,394  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 18:25:33,394  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 18:25:33,487  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:25:33,487  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:25:33,488  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:25:33,504  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 18:25:33,585  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 18:25:33,586  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 18:25:33,593  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:25:33,594  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:25:33,594  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:25:33,599  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 18:25:33,601  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 18:25:33,601  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 18:25:33,609  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:25:33,610  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:25:33,611  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:25:33,616  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 18:25:33,618  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 18:25:33,619  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 18:25:33,626  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:25:33,627  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:25:33,627  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:25:33,630  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 18:25:33,633  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 18:25:33,634  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 18:25:33,663  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 18:25:33,663  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 18:25:33,664  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDpocjllaWU=","success":true}
+2021-05-26 18:25:33,670  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 18:29:22,116  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 18:29:22,298  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 18:29:22,298  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 18:29:22,371  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:29:22,371  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:29:22,372  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:29:22,384  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 18:29:22,484  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 18:29:22,484  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 18:29:22,492  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:29:22,492  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:29:22,492  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:29:22,497  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 18:29:22,500  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 18:29:22,500  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 18:29:22,515  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:29:22,519  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:29:22,520  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:29:22,527  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 18:29:22,530  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 18:29:22,530  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 18:29:22,538  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 18:29:22,539  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 18:29:22,539  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 18:29:22,542  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 18:29:22,547  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 18:29:22,548  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 18:29:22,584  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 18:29:22,585  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 18:29:22,585  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDpiM3EzZnc=","success":true}
+2021-05-26 18:29:22,590  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 19:28:05,913  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 19:28:06,291  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 19:28:06,291  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 19:28:06,426  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:28:06,427  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:28:06,429  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:28:06,541  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 19:28:06,805  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 19:28:06,805  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 19:28:06,814  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:28:06,814  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:28:06,814  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:28:06,828  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 19:28:06,832  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 19:28:06,832  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 19:28:06,854  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:28:06,855  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:28:06,856  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:28:06,868  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 19:28:06,871  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 19:28:06,871  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 19:28:06,879  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:28:06,879  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:28:06,879  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:28:06,888  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 19:28:06,892  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 19:28:06,892  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 19:28:06,926  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 19:28:06,926  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 19:28:06,927  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDoyM2l5OWg=","success":true}
+2021-05-26 19:28:06,940  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 19:35:57,576  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 19:35:58,072  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 19:35:58,073  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 19:35:58,249  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:35:58,250  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:35:58,252  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:35:58,361  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 19:35:58,613  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 19:35:58,614  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 19:35:58,624  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:35:58,625  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:35:58,625  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:35:58,639  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 19:35:58,643  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 19:35:58,643  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 19:35:58,653  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:35:58,654  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:35:58,655  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:35:58,667  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 19:35:58,669  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 19:35:58,670  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 19:35:58,678  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:35:58,679  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:35:58,679  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:35:58,686  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 19:35:58,691  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 19:35:58,691  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 19:35:58,731  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 19:35:58,731  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 19:35:58,732  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDp0MGoyYzY=","success":true}
+2021-05-26 19:35:58,742  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 19:53:42,302  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 19:53:42,717  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 19:53:42,717  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 19:53:42,862  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:53:42,862  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:53:42,864  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:53:42,986  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 19:53:43,290  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 19:53:43,291  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 19:53:43,299  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:53:43,299  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:53:43,300  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:53:43,319  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 19:53:43,323  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 19:53:43,323  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 19:53:43,333  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:53:43,335  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:53:43,336  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:53:43,351  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 19:53:43,356  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 19:53:43,356  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 19:53:43,364  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 19:53:43,365  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 19:53:43,365  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 19:53:43,373  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 19:53:43,378  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 19:53:43,379  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 19:53:43,421  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 19:53:43,422  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 19:53:43,422  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDp2NmFheXc=","success":true}
+2021-05-26 19:53:43,434  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 20:03:24,210  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 20:03:24,497  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 20:03:24,497  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 20:03:24,605  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 20:03:24,606  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 20:03:24,608  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 20:03:24,628  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 20:03:24,943  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 20:03:24,943  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 20:03:24,951  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 20:03:24,951  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 20:03:24,951  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 20:03:24,959  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 20:03:24,961  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 20:03:24,961  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 20:03:24,971  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 20:03:24,973  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 20:03:24,973  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 20:03:24,983  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 20:03:24,985  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 20:03:24,985  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 20:03:24,993  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 20:03:24,994  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 20:03:24,994  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 20:03:25,003  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 20:03:25,008  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 20:03:25,009  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 20:03:25,049  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 20:03:25,050  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 20:03:25,052  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDo4YzhvNGE=","success":true}
+2021-05-26 20:03:25,066  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-26 20:03:51,588  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 29 - --------------ï¿½ï¿½ï¿½ï¿½Ëºï¿½ start--------------
+2021-05-26 20:03:51,834  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/account/add
+2021-05-26 20:03:51,834  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-26 20:03:51,929  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 20:03:51,929  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 20:03:51,931  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 20:03:51,953  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 34 - --------------ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ëºï¿½ start--------------
+2021-05-26 20:03:52,250  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/list
+2021-05-26 20:03:52,250  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"current":1,"name":"wangcheng","size":10}
+2021-05-26 20:03:52,259  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 20:03:52,260  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 20:03:52,260  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 20:03:52,268  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 37 - --------------ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½È¡ï¿½Ã»ï¿½È¨ï¿½ï¿½ start--------------
+2021-05-26 20:03:52,270  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/role/roleTreeListByUserId
+2021-05-26 20:03:52,270  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[userId=1]
+2021-05-26 20:03:52,333  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 20:03:52,336  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 20:03:52,336  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 20:03:52,355  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 31 - --------------ï¿½ï¿½ï¿½ï¿½userIdÎªï¿½Ã»ï¿½ï¿½ï¿½Ó½ï¿½É« start--------------
+2021-05-26 20:03:52,358  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202//GUNS/account/setRole
+2021-05-26 20:03:52,359  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[roleIds=1, userId=7]
+2021-05-26 20:03:52,370  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:401
+2021-05-26 20:03:52,370  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:Unauthorized
+2021-05-26 20:03:52,370  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - 
+2021-05-26 20:03:52,374  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio start--------------
+2021-05-26 20:03:52,378  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½http://studio202/GUNS/mgr/login
+2021-05-26 20:03:52,379  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-26 20:03:52,425  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpStatus:200
+2021-05-26 20:03:52,425  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - HttpResponseMsg:OK
+2021-05-26 20:03:52,425  INFO HttpClient(ï¿½ì²½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 269 - {"code":"0000","msg":"ï¿½É¹ï¿½","data":"YWRtaW4sMDpnamphejY=","success":true}
+2021-05-26 20:03:52,436  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ï¿½Ã»ï¿½ï¿½ï¿½Â½studio end--------------
+2021-05-27 14:23:00,188  INFO HttpClient(Òì²½)¹¤¾ßÀà: 29 - --------------Ìí¼ÓÕËºÅ start--------------
+2021-05-27 14:23:00,493  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202/GUNS/account/add
+2021-05-27 14:23:00,494  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-27 14:23:00,606  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:401
+2021-05-27 14:23:00,607  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:Unauthorized
+2021-05-27 14:23:00,609  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - 
+2021-05-27 14:23:00,632  INFO HttpClient(Òì²½)¹¤¾ßÀà: 34 - --------------¸ù¾İÌõ¼ş²éÑ¯ÕËºÅ start--------------
+2021-05-27 14:23:00,945  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202//GUNS/account/list
+2021-05-27 14:23:00,946  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º{"current":1,"name":"wangcheng","size":10}
+2021-05-27 14:23:00,955  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:401
+2021-05-27 14:23:00,955  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:Unauthorized
+2021-05-27 14:23:00,956  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - 
+2021-05-27 14:23:00,963  INFO HttpClient(Òì²½)¹¤¾ßÀà: 37 - --------------¸ù¾İuserId»ñÈ¡ÓÃ»§È¨ÏŞ start--------------
+2021-05-27 14:23:00,965  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202/GUNS/role/roleTreeListByUserId
+2021-05-27 14:23:00,965  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º[userId=1]
+2021-05-27 14:23:00,974  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:401
+2021-05-27 14:23:00,976  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:Unauthorized
+2021-05-27 14:23:00,977  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - 
+2021-05-27 14:23:00,995  INFO HttpClient(Òì²½)¹¤¾ßÀà: 31 - --------------¸ù¾İuserIdÎªÓÃ»§Ìí¼Ó½ÇÉ« start--------------
+2021-05-27 14:23:00,997  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202//GUNS/account/setRole
+2021-05-27 14:23:00,998  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º[roleIds=1, userId=7]
+2021-05-27 14:23:01,005  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:401
+2021-05-27 14:23:01,006  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:Unauthorized
+2021-05-27 14:23:01,006  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - 
+2021-05-27 14:23:01,011  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ÓÃ»§µÇÂ½studio start--------------
+2021-05-27 14:23:01,015  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202/GUNS/mgr/login
+2021-05-27 14:23:01,015  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-27 14:23:01,051  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:200
+2021-05-27 14:23:01,052  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:OK
+2021-05-27 14:23:01,054  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - {"code":"0000","msg":"³É¹¦","data":"YWRtaW4sMDo1ZWd5eWw=","success":true}
+2021-05-27 14:23:01,076  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ÓÃ»§µÇÂ½studio end--------------
+2021-05-27 16:36:33,088  INFO HttpClient(Òì²½)¹¤¾ßÀà: 29 - --------------Ìí¼ÓÕËºÅ start--------------
+2021-05-27 16:36:33,506  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202/GUNS/account/add
+2021-05-27 16:36:33,506  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º[password=y8Gw/EqQfhEPnnvCgWLONA==, phone=16602103425, rePassword=y8Gw/EqQfhEPnnvCgWLONA==, accountType=0, deptid=0, name=wangcheng, createUser=1, account=wangcheng1test, email=wangcheng@qq.com]
+2021-05-27 16:36:33,635  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:401
+2021-05-27 16:36:33,635  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:Unauthorized
+2021-05-27 16:36:33,639  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - 
+2021-05-27 16:36:33,659  INFO HttpClient(Òì²½)¹¤¾ßÀà: 34 - --------------¸ù¾İÌõ¼ş²éÑ¯ÕËºÅ start--------------
+2021-05-27 16:36:34,123  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202//GUNS/account/list
+2021-05-27 16:36:34,124  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º{"current":1,"name":"wangcheng","size":10}
+2021-05-27 16:36:34,133  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:401
+2021-05-27 16:36:34,134  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:Unauthorized
+2021-05-27 16:36:34,134  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - 
+2021-05-27 16:36:34,157  INFO HttpClient(Òì²½)¹¤¾ßÀà: 37 - --------------¸ù¾İuserId»ñÈ¡ÓÃ»§È¨ÏŞ start--------------
+2021-05-27 16:36:34,162  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202/GUNS/role/roleTreeListByUserId
+2021-05-27 16:36:34,163  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º[userId=1]
+2021-05-27 16:36:34,172  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:401
+2021-05-27 16:36:34,173  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:Unauthorized
+2021-05-27 16:36:34,174  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - 
+2021-05-27 16:36:34,189  INFO HttpClient(Òì²½)¹¤¾ßÀà: 31 - --------------¸ù¾İuserIdÎªÓÃ»§Ìí¼Ó½ÇÉ« start--------------
+2021-05-27 16:36:34,192  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202//GUNS/account/setRole
+2021-05-27 16:36:34,193  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º[roleIds=1, userId=7]
+2021-05-27 16:36:34,228  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:401
+2021-05-27 16:36:34,229  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:Unauthorized
+2021-05-27 16:36:34,229  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - 
+2021-05-27 16:36:34,234  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ÓÃ»§µÇÂ½studio start--------------
+2021-05-27 16:36:34,239  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇóµØÖ·£ºhttp://studio202/GUNS/mgr/login
+2021-05-27 16:36:34,239  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - ÇëÇó²ÎÊı£º{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-27 16:36:34,273  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpStatus:200
+2021-05-27 16:36:34,273  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - HttpResponseMsg:OK
+2021-05-27 16:36:34,274  INFO HttpClient(Òì²½)¹¤¾ßÀà: 269 - {"code":"0000","msg":"³É¹¦","data":"YWRtaW4sMDowOHk1dHQ=","success":true}
+2021-05-27 16:36:34,282  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ÓÃ»§µÇÂ½studio end--------------
+2021-05-27 17:40:22,981  INFO com.edward.app.guns.GunsMgrLoginTest: 36 - --------------ç”¨æˆ·ç™»é™†studio start--------------
+2021-05-27 17:40:23,720  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - è¯·æ±‚åœ°å€ï¼šhttp://studio202/GUNS/mgr/login
+2021-05-27 17:40:23,720  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - è¯·æ±‚å‚æ•°ï¼š{"accountType":"0","password":"zsPQQvGXaduTogVTfvDicg==","username":"admin"}
+2021-05-27 17:40:23,916  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - HttpStatus:200
+2021-05-27 17:40:23,917  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - HttpResponseMsg:OK
+2021-05-27 17:40:23,920  INFO HttpClient(å¼‚æ­¥)å·¥å…·ç±»: 269 - {"code":"0000","msg":"æˆåŠŸ","data":"YWRtaW4sMDozMDhpaHE=","success":true}
+2021-05-27 17:52:04,728  INFO com.edward.app.guns.GunsMgrLoginTest: 41 - --------------ç”¨æˆ·ç™»é™†studio end--------------
