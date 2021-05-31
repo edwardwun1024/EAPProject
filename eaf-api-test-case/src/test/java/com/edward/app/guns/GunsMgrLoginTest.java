@@ -6,6 +6,7 @@ import com.edward.common.EnumCode;
 import com.edward.dataProvider.guns.GunsMgrLoginTestData;
 import com.edward.requestbean.guns.bean.GunsMgrLoginRequestBean;
 import com.edward.responsebean.basic.BaseRes;
+import io.qameta.allure.Description;
 import lombok.extern.log4j.Log4j;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -31,6 +32,7 @@ public class GunsMgrLoginTest extends BaseApiTest {
 
 
     @Test(dataProvider = "dataPrdGetGunsMgrLoginTest")
+    @Description("功能：用户登陆")
     public void testGetGunsMgrLoginTest(String caseName, GunsMgrLoginRequestBean gunsMgrLoginRequestBean, EnumCode enumCode) {
 
         log.info("--------------" + caseName + " start--------------");

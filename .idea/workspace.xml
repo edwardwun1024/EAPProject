@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252bfca4-ecb8-4b81-a0aa-74b233a8f5f6" name="Default Changelist" comment="">
+    <list default="true" id="252bfca4-ecb8-4b81-a0aa-74b233a8f5f6" name="Default Changelist" comment="优化4">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/build/allure-results/b375a59d-adad-4f4b-95bd-a3c83be0937d-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/build/allure-results/log4j.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eaf-core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,91 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/AbstractServiceCaller.java">
+        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PersonScenarioTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/DeviceScenarioTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/GunsScenarioTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PolicyMonitorScenarioTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-biz/src/main/java/com/edward/service/GunsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1957">
-              <caret line="114" column="43" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsAccountListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/responsebean/basic/BaseRes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="617">
+              <caret line="132" column="69" selection-start-line="132" selection-start-column="69" selection-end-line="132" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -134,6 +60,7 @@
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="XML Properties File" />
       </list>
     </option>
   </component>
@@ -168,6 +95,7 @@
       <find>fastjson</find>
       <find>testng</find>
       <find>ServiceCallerImplement</find>
+      <find>timestamp</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -193,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/DeviceAppCaller.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/app/AbstractServiceCaller.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/GunsAppCaller.java" />
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/policymonitor/bean/TargetBean.java" />
@@ -234,16 +161,17 @@
         <option value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl.java" />
         <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/EafCoreApplication.java" />
         <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/EafApiTestCaseApplication.java" />
-        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/allure.properties" />
         <option value="$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/Utils.java" />
-        <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eaf-app/pom.xml" />
         <option value="$PROJECT_DIR$/eaf-biz/pom.xml" />
         <option value="$PROJECT_DIR$/eaf-core/pom.xml" />
-        <option value="$PROJECT_DIR$/eaf-api-test-case/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.groovy" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/resources/allure.properties" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java" />
+        <option value="$PROJECT_DIR$/eaf-api-test-case/pom.xml" />
       </list>
     </option>
   </component>
@@ -264,6 +192,20 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eaf-api-test-case" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eaf-api-test-case" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eaf-api-test-case" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="EAPProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -309,120 +251,7 @@
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
               <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="guns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-api-test-case" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
-              <item name="scenario" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EAPProject" type="462c0819:PsiDirectoryNode" />
-              <item name="eaf-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EAPProject" type="b2602c69:ProjectViewProjectNode" />
@@ -437,8 +266,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,7 +280,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/device/bean" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eaf-api-test-case" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -462,8 +291,11 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.edward.app" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-api-test-case\src\test\resources" />
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-api-test-case\src\main\resources\suite" />
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-api-test-case" />
+      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-core\src\main\resources\img" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.edward" />
@@ -483,10 +315,8 @@
       <recent name="com.edward" />
       <recent name="person" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-api-test-case\src\main\resources\suite" />
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-api-test-case" />
-      <recent name="C:\Users\wangcheng1_vendor\IdeaProjects\EAFProject\eaf-core\src\main\resources\img" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.edward.app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -562,6 +392,83 @@
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_EAPProject" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54749" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JProfiler">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -701,7 +608,10 @@
       <workItem from="1610937543037" duration="16193000" />
       <workItem from="1611110636297" duration="49151000" />
       <workItem from="1622105380906" duration="4421000" />
-      <workItem from="1622111868896" duration="515000" />
+      <workItem from="1622111868896" duration="5139000" />
+      <workItem from="1622117469965" duration="20500000" />
+      <workItem from="1622428141565" duration="89000" />
+      <workItem from="1622440855416" duration="8627000" />
     </task>
     <task id="LOCAL-00001" summary="基本框架搭建">
       <created>1576462422977</created>
@@ -864,13 +774,17 @@
       <option name="project" value="LOCAL" />
       <updated>1622104900045</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="优化4">
+      <created>1622112664938</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1622112664938</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 51m 04s.xml">
-      <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_wangcheng1_vendor_IdeaProjects_EAPProject_eaf-api-test-case_src_main_resources_suite_testng_xml - 2021.05.26 at 16h 54m 19s.xml">
       <configuration name="C:/Users/wangcheng1_vendor/IdeaProjects/EAPProject/eaf-api-test-case/src/main/resources/suite/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -898,9 +812,12 @@
     <history-entry file="GunsMgrLoginTest_testGetGunsMgrLoginTest - 2021.05.27 at 17h 52m 05s.xml">
       <configuration name="GunsMgrLoginTest.testGetGunsMgrLoginTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GunsMgrLoginTest_testGetGunsMgrLoginTest - 2021.05.28 at 15h 12m 50s.xml">
+      <configuration name="GunsMgrLoginTest.testGetGunsMgrLoginTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175081000" />
+    <option name="totallyTimeSpent" value="208921000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -912,10 +829,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-267" y="-1088" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-267" y="-1088" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -924,13 +840,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5443686" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4688196" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3530067" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37861916" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.42427617" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33964366" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32850778" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.36191538" />
@@ -940,7 +856,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.16471216" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.20575693" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
@@ -1015,7 +931,8 @@
     <MESSAGE value="优化2-dependencymanagement" />
     <MESSAGE value="优化3-打包" />
     <MESSAGE value="优化3-删除没有使用过的类" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化3-删除没有使用过的类" />
+    <MESSAGE value="优化4" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化4" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1109,219 +1026,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/person/PersonGroupListTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsMgrLoginTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/dataProvider/guns/GunsAccountAddTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/bean/GunsAccountAddRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/requestbean/guns/dataTemplate/GunsMgrLoginTpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/DeviceListRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/java/com/edward/EafApiTestCaseApplication.java" />
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/EafCoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/logback.xml" />
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/Base/BaseApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/GunsAppCaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/HttpConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="155" column="22" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="428" column="29" selection-start-line="428" selection-start-column="26" selection-end-line="428" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/src/main/java/com/edward/http/common/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/2021-05-26T17-41-32_647-jvmRun1.dump" />
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/suite/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/2017-05-16_18_56_43/allure-results/1f0d21db-efb8-4153-b3ea-034a204535fc-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/2017-05-16_18_56_43/allure-results/b53a3ef8-8968-4fb5-8dd5-3d6fae2b5a6a-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-biz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1216">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/build/allure-results/allure-maven.html" />
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/build/allure-results/project-reports.html" />
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/testng-results.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/build/allure-results/images/external.png" />
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/build/allure-results/images/icon_error_sml.gif" />
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/old/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/passed.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="71" lean-forward="true" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/All Test Suite/AllGunsTestCase.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/old/All Test Suite/reporter-output.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/old/All Test Suite/AllGunsTestCase.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="97" column="63" selection-start-line="97" selection-start-column="57" selection-end-line="97" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/build/allure-results/log4j.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/AbstractAppCaller.java" />
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/implement/ServiceCallerImplement.java" />
     <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/implement/AppCallerImplement.java" />
     <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/scenario/PersonScenarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1375,26 +1079,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/AbstractServiceCaller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="1463">
+          <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.groovy">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/build/allure-results/b375a59d-adad-4f4b-95bd-a3c83be0937d-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="71" lean-forward="true" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/2017-05-16_18_56_43/allure-results/70c89b21-66d4-4506-abc5-a5980ad96dc7-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/junitreports/TEST-com.edward.app.guns.GunsAccountAddTest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/eaf-app/src/main/java/com/edward/appcaller/AbstractServiceCaller.java">
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/old/All Test Suite/AllGunsTestCase.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/All Test Suite/AllGunsTestCase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="133">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/2017-05-16_18_56_43/allure-results/ca6e0f99-d212-4168-86b7-cea06457860f-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/allure-results/c2180d9e-ec1e-487c-b2d4-960695262947-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/2017-05-16_18_56_43/allure-results/0b5141d3-d8da-4769-8537-39526ae7ef2e-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/2017-05-16_18_56_43/site/project-reports.html" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/2017-05-16_18_56_43/allure-results/2103970c-adee-494d-b13f-6efc3238882e-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/build/allure-results/2aae7097-d1a8-4d5d-afd2-b00edd6702d7-container.json" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/2017-05-16_18_56_43/allure-results/9201e772-f4a3-48e6-8f7d-df4c346b2a1d-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/build/allure-results/log4j.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/20210528030632/allure-results/988e92b8-607d-4a7e-9f8c-08515486d2f9-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/resources.xml" />
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/testng-results.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/surefire-reports/TestSuite.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/allure-results/allure-report/data/suites.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/allure-results/allure.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-biz/target/site/allure-maven-plugin/allure-maven.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/test-classes/allure.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/allure-results/a38fcc37-efc7-461a-b187-094f8cd77ff7-testsuite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/allure-results/eed49c3e-ef5f-434f-965f-b0509e216492-result.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/target/allure-results/7095bfb2-ae59-42b8-ba0f-c21756846ce5-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/build/allure-results/4ef38716-2062-48b3-9eb5-b0546e3e5b36-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/build/allure-results/5def92a0-fb4f-43d6-ab40-b5af45d95ad9-result.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/build/allure-results/5a15cb3f-e282-47f9-a95d-df53573fa741-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/resources/allure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/main/resources/suite/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.12.1/allure-java-commons-2.12.1.jar!/io/qameta/allure/Description.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/src/test/java/com/edward/app/guns/GunsMgrLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/.allure/allure-2.8.1/config/allure-cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/.allure/allure-2.8.1/config/allure-junit.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/.allure/allure-2.8.1/config/allure.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/allure-report/data/suites.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eaf-api-test-case/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="132" column="69" selection-start-line="132" selection-start-column="69" selection-end-line="132" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -1471,5 +1313,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="C:\Users\wangcheng1_vendor\IdeaProjects\EAPProject\eaf-api-test-case" />
+    <option value="io.qameta.allure:allure-maven:serve" />
   </component>
 </project>
